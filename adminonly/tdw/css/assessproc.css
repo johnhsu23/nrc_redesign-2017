@@ -1,0 +1,535 @@
+@import "cssmenu9retro.css";
+@import "naepcontent.css";
+@import "/nationsreportcard/inc/naep2010.css";
+
+P.center_it
+{
+    FONT-WEIGHT: normal;
+    TEXT-ALIGN: center
+}
+TH.tabletitle
+{
+    FONT-WEIGHT: normal;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    FONT-STYLE: normal;
+    TEXT-ALIGN: left
+}
+TH
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ffffff;
+    TEXT-ALIGN: left
+}
+.tablecell
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right;
+}
+.tablecell_top
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.tablecell_totals
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.tablecell_top_totals
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.tablecell_center
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: center
+}
+.tablecell_top_center
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: center
+}
+.rowhead_bottom
+{
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: bottom !important;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.rowhead_totals
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.columnhead1
+{
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.columnhead1_span
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    VERTICAL-ALIGN: bottom;
+    BORDER-LEFT: medium none;
+    COLOR: #000000;
+    BORDER-BOTTOM: #800000 2px solid !important;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: center
+}
+.columnhead1_right
+{
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.columnhead1_left
+{
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.columnhead2
+{
+    FONT-WEIGHT: bold;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #996666;
+    TEXT-ALIGN: center
+}
+.rowhead
+{
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.rowhead_subordinate
+{
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.rowhead_center
+{
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: right
+}
+.table_lite_rule
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+.tdw_irt_l_cell
+{
+    BORDER-RIGHT: 1px;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: white 1px solid;
+    BORDER-BOTTOM: 0px
+}
+.tdw_irt_r_cell
+{
+    BORDER-RIGHT: 0px;
+    BORDER-TOP: white 1px solid;
+    BORDER-LEFT: 0px;
+    BORDER-BOTTOM: 0px
+}
+.table_lite_rule
+{
+    PADDING-RIGHT: 0px;
+    PADDING-LEFT: 0px;
+    PADDING-BOTTOM: 0px;
+    PADDING-TOP: 0px
+}
+.RelatedLinksP
+{
+    PADDING-BOTTOM: 1px;
+}
+UL
+{
+}
+OL
+{
+}
+LI
+{
+	vertical-align: middle;
+}
+.footnote
+{
+}
+div.footnote
+{
+	margin: 10px 2px;
+}
+.back_to_top
+{
+	text-align: right;
+}
+
+#pagepath
+{
+    FONT-WEIGHT: bolder;
+    FONT-STYLE: italic;
+    TEXT-ALIGN: left
+}
+
+/* Formatting crumb trail for TDW pages */
+.rounded-top {height:10px; background: top left url(/nationsreportcard/subject/tdw/images/crumbtrail_top_left.gif) no-repeat;}
+.rounded-top span {display:block; position:relative; height:10px; background: top right url(/nationsreportcard/subject/tdw/images/crumbtrail_top_right.gif) no-repeat;}
+.rounded-bottom {height:10px; background: bottom left url(/nationsreportcard/subject/tdw/images/crumbtrail_bottom_left.gif) no-repeat; clear:left;}
+.rounded-bottom span {display:block; position:relative; height:10px; background: bottom right url(/nationsreportcard/subject/tdw/images/crumbtrail_bottom_right.gif) no-repeat;}
+div.crumbtrail-frame {
+  margin: 0 1em 1em 1em;
+  background-color: #e0e0e0;
+}
+div.crumbtrail {
+  margin: 0 1em 0 1em;
+  _margin: 0 1em 0 1em; /* _ IE-only */
+  text-align:left;
+  padding-right: 10px;
+  _padding-right: 0;
+}
+div.crumbtrail ul,
+div.crumbtrail li {
+  margin:0;
+  padding:0;
+  display:inline;
+  FONT-STYLE: italic;
+  FONT-WEIGHT: bolder;  
+}
+div.crumbtrail .crumb {
+  margin-left: 0.4em;
+  padding-left: 1em;
+  font-style: italic;
+  font-weight: bold;
+}
+div.crumbtrail .wide {
+  _width: 580px;
+}
+div.crumbtrail .crumb.first {
+  margin-left: 0;
+  padding-left: 0;
+  background: none;  
+}
+
+/* End formatting crumb trail for TDW pages */
+.glossary_link:link,
+.glossary_link:visited,
+div.MainContent a.glossary_link:link,
+div.MainContent a.glossary_link:visited
+{
+    COLOR: #006600
+}
+.refs_link:link, .refs_link:visited,
+div.MainContent a.refs_link:link,
+div.MainContent a.refs_link:visited
+{
+    COLOR: #006600
+}
+.equation
+{
+    FONT-STYLE: italic;
+	font-family: times new roman,times,serif;
+}
+.headequation
+{
+	FONT-SIZE: 100%;
+    FONT-STYLE: italic;
+    FONT-FAMILY: times new roman, times, serif
+}
+.vector
+{
+    FONT-WEIGHT: bold;
+    FONT-SIZE: 110%;
+    FONT-FAMILY: times new roman, times, serif
+}
+.constant
+{
+    FONT-SIZE: 120%;
+    FONT-FAMILY: times new roman, times, serif
+}
+.TDrelatedlinks
+{
+    PADDING-LEFT: 5px;
+    PADDING-BOTTOM: 35px;
+}
+.td INPUT
+{
+    FONT-FAMILY: none
+}
+.menuLink1
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menuLink2
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+.menuLink1 A:link
+{
+    COLOR: #000000;
+    TEXT-DECORATION: none
+}
+A.menuLink1:hover
+{
+    COLOR: #990a1b
+}
+A.menuLink2:hover
+{
+    COLOR: #990a1b
+}
+.greenMenu
+{
+    BACKGROUND-COLOR: #baddc4
+}
+.blueMenu
+{
+    BACKGROUND-COLOR: #bccdd8
+}
+.bracket
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 190%;
+    FONT-FAMILY: times new roman, times;
+    TEXT-DECORATION: none
+}
+.hugebracket
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 250%;
+    FONT-FAMILY: times new roman, times;
+    TEXT-DECORATION: none
+}
+.print_page_url
+{
+    FONT-SIZE: 90%;
+    FONT-FAMILY: times new roman, times, serif;
+    TEXT-ALIGN: right
+}
+.z_pbib_tablecell_center
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5d9d0;
+    TEXT-ALIGN: center
+}
+.boxed_text
+{
+    BORDER: thick double #f5e4df #ffffff;
+    FONT-WEIGHT: normal;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left;
+    padding: 0.5em;
+}
+
+.tdwbantd
+{
+    FONT-SIZE: 130%;
+    FONT-FAMILY: arial
+}
+.tablecell_sup_left
+{
+    FONT-SIZE: 90%;
+    BORDER-LEFT: medium none;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #f5e4df;
+    TEXT-ALIGN: left
+}
+.tablecell_holds_links
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: right
+}
+.tablecell_holds_links_topalign
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: right
+}
+.rowhead_bottom_holds_links
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: left
+}
+.columnhead1_holds_links
+{
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: bottom;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: right
+}
+.columnhead1_span_holds_links
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: bottom;
+    BORDER-LEFT: medium none;
+    COLOR: #000000;
+    BORDER-BOTTOM: #2f2f4f 1px solid;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: center
+}
+.rowhead_holds_links
+{
+    FONT-SIZE: 90%;
+    VERTICAL-ALIGN: top;
+    COLOR: #000000;
+    BACKGROUND-COLOR: #ccccff;
+    TEXT-ALIGN: left
+}
+CAPTION.tabletitle
+{
+    FONT-WEIGHT: normal;
+    FONT-SIZE: 100%;
+    PADDING-BOTTOM: 10px;
+    PADDING-TOP: 10px;
+    FONT-STYLE: normal;
+    TEXT-ALIGN: left
+}
+.not_released
+{
+    FONT-SIZE: 100%;
+    COLOR: gray
+}
+
+/* Additional table formatting */
+table.data_table
+{
+	
+	border-collapse: separate;
+	*border-collapse: collapse;
+	border-spacing:0px;
+	*border-spacing:1px;
+	border-top: 3px solid #800000;
+	width: 95%;
+}
+table.data_table.no-footnote
+{
+	border-bottom: 3px solid #800000;
+}
+
+table.data_table td.footnote
+{
+	border-top: 3px solid #800000;
+}
+
+table.data_table th,
+table.data_table td 
+{ 
+	padding-left: 0.5em; padding-right: 0.5em; border: 1px solid #ffffff;
+}
+
+table.data_table th.rowhead_bottom, 
+table.data_table th.columnhead1
+{ 
+	border-bottom: 3px solid #800000;
+}
+
+table.data_table td { vertical-align: baseline; }
+table.data_table td.tablecell { vertical-align: baseline; }
+table.data_table th.rowhead { vertical-align: baseline; }
+
+table.data_table tr.rowgroup_first th,
+table.data_table tr.rowgroup_first td {	border-top: 2px solid #800000;}
+
+table.data_table .rowhead_totals { padding-left: 1.7em; }
+
+table.data_table .rowhead_subordinate { padding-left: 1.7em; }
+
+table.committee_table td { white-space: nowrap; }
+
+#crumbtrail_frame { margin-bottom: 1em; }
+
+
+.maroon_top, .maroon_bottom
+{
+	background-color:#990000;
+	padding: 0px 0px 0px 0px;
+	height: 2px;
+}
+.maroon_middle
+{
+	background-color:#990000;
+	padding: 0px 0px 0px 0px;
+	height: 1px;
+}
+
+caption.tabletitle { font-weight: bold; }
+
+/*added by alan 5/7/08*/
+table.figure caption {
+    font-weight: bold;
+    font-size: 100%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-style: normal;
+    text-align: left;
+}
+
+table.figure td {
+    text-align: center;
+}
+
+table.figure td.footnote {
+    text-align: left;
+}
+
+.noMargin
+{
+	margin: 0;
+}

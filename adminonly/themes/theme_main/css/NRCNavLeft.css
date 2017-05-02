@@ -1,0 +1,211 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div.NRC2009 .rtMinus,
+div.NRC2009 .rtPlus {
+	display: none;
+}
+div.NRC2009 .rtTop,
+div.NRC2009 .rtMid,
+div.NRC2009 .rtBot {
+	padding: /*3px*/ 0;
+	vertical-align: middle;
+}
+div.NRC2009 .rtUL ul {
+	margin: 0;
+}
+.div.NRC2009 .rtUL li {
+	list-style-type: none;
+	zoom: 1;
+	border-style:none;
+	min-height: 26px;
+}
+.NRC2009 li {
+	font-size: 12px;
+}
+
+/* Controls Everything */
+.NRC2009,
+.NRC2009 div a.rtIn,
+.NRC2009 .rtEdit .rtIn input {
+	color: #000;
+	font-family: Arial,Helvetica,sans-serif !important;
+	width:150px;
+	line-height: 1.2 !important;
+} 
+
+.NRC2009 {
+	white-space:normal !important;
+	cursor: default;
+	background-color:#EBF5DC;
+}
+.NRC2009 .rtIn {
+	margin-left: 0px !important;
+	padding: 0 !important;
+}
+.NRC2009 .rtUL .rtLI .rtUL {
+	padding: 0 !important;	
+}
+.NRC2009 .rtIn {
+	width: 100%; 	
+}
+/* top level items */
+div[class~="NRC2009"]>ul>li>ul>li {
+	background-image: url(../images/leftNavUnderlineGreen.jpg);
+	background-repeat: repeat-x;
+	background-position: center bottom;
+	list-style: none;
+	width: 150px;
+	
+	padding: 5px 0 7px 0;	/*3px 0 7px 0;*/
+}
+.NRC2009 div.Level1 .rtSp, .NRC2009 div.Level2 .rtSp, .NRC2009 div.Level3 .rtSp,
+.NRC2009 div.Selected-Level1 .rtSp {
+    height: 1px;
+}
+.NRC2009 div.Level0 {
+ 	background-color:#C4DF9B;
+}
+div[class~="NRC2009"]>ul>li.rtNAEP1 div.Level0, 
+div[class~="NRC2009"]>ul>li.rtNAEP2 div.Level0 {
+ 	background-color:#87BEED;
+}
+.NRC2009 div.Level0 {
+    /*height: 30px;  
+    padding-top: 8px;
+    padding-bottom:2px;*/    
+   
+    padding-top: 6px;
+}
+.NRC2009 .Level1 {
+	margin-left:5px;
+}
+/*.NRC2009 div.Level1+ul li.rtLI {
+	margin-top:-3px;
+}*/
+.NRC2009 div.Level2+ul li.rtLI {
+	margin-top:0px;
+}
+.NRC2009 div.Level3+ul li.rtLI {
+	margin-top:-3px;
+}
+.NRC2009 div.Level2 {
+	margin-left: 18px !important;
+	list-style-type: none;
+	line-height: 1.3em;
+	font-size: 0.9em;
+}
+.NRC2009 .Level2 a.rtIn {
+	font-size:11px;
+	line-height:0.6em;
+}
+.NRC2009 .Level3 a.rtIn {
+	font-size:11px;
+}
+.NRC2009 div.Level3 {
+	margin-left: 30px !important;
+	list-style-type: none;
+	line-height: 1.2em; 	
+	font-size: 11px;
+}
+.NRC2009 .Selected-Level1 {
+	font-size: 12px;
+}
+.NRC2009 .Selected-Level1 .rtUL {
+	font-size: 11px; 
+}
+.NRC2009 div.Selected-Level1 {
+	background-image: url(../images/bulletgreen_greenBk.jpg);
+	background-position:left 2px;
+	background-repeat: no-repeat;
+	padding: 0 0 0 13px !important; /*0 0 3px 13px !important;*/
+}
+/*
+.NRC2009 div.Selected-Level2 {	
+	margin-left: 24px !important;	
+}*/
+.NRC2009 div.Selected-Level1 a.rtIn {
+    margin-left: 0px !important;	
+	font-weight: bold;	
+}
+.NRC2009 div.Selected-Level2 a.rtIn {
+	font-weight: bold;
+}
+.NRC2009 div.Selected-Level3 a.rtIn {
+	font-weight: bold;
+	line-height: 0.8em;
+}
+.NRC2009 div.rtHover a.rtIn:hover,
+.NRC2009 div.rtHover span.rtIn:hover {
+    background-color:transparent;
+    background: transparent none;
+    text-decoration:underline;
+}
+div[class~="NRC2009"]>ul>li.rtNAEP1 div.rtHover a.rtIn:hover,
+div[class~="NRC2009"]>ul>li.rtNAEP1 div.rtHover span.rtIn:hover,
+div[class~="NRC2009"]>ul>li.rtNAEP2 div.rtHover a.rtIn:hover,
+div[class~="NRC2009"]>ul>li.rtNAEP2 div.rtHover span.rtIn:hover {
+    background-color:transparent;
+    background: transparent none;
+    text-decoration:underline;
+}
+div.NRC2009 .rtHover .rtIn {
+	text-decoration:underline;
+	background-color:#C4DF9B;	
+	border-width: 0 !important;
+	border-style:none !important;
+}
+div[class~="NRC2009"]>ul>li.rtNAEP1 .rtHover .rtIn,
+div[class~="NRC2009"]>ul>li.rtNAEP2 .rtHover .rtIn {
+	text-decoration:underline;
+	background-color:#87BEED;	
+	border-width: 0 !important;
+	border-style:none !important;
+}
+div.NRC2009 .rtSelected .rtIn {
+	background-position:left center;
+	background-repeat: no-repeat;
+	padding-left:0px !important;	
+	border-width: 0 !important;
+	border-style:none !important;	
+}
+
+/* Selected */
+div.NRC2009 .rtSelected .rtIn,
+div[class~="NRC2009"]>ul>li.rtNAEP1 .rtSelected .rtIn,
+div[class~="NRC2009"]>ul>li.rtNAEP2 .rtSelected .rtIn,
+div.NRC2009 .rtSelected .rtIn {
+	background: transparent none;
+	color: #000 !important;
+	font-weight: bold !important;
+	text-decoration: none;
+}
+
+/*for Information for...*/
+div[class~="NRC2009"]>ul>li.rtNAEP1,
+div[class~="NRC2009"]>ul>li.rtNAEP2 {
+	white-space:normal !important;
+	cursor: default;
+	background-color:white;
+}    
+div[class~="NRC2009"]>ul>li.rtNAEP1>ul>li,
+div[class~="NRC2009"]>ul>li.rtNAEP2>ul>li {	
+	background-image: url(../images/leftNavLineBlue.jpg);	
+	background-position: right bottom;	
+	background-repeat: no-repeat;
+	list-style: none;
+	padding: 4px 0;
+	width: 150px;	
+}
+div[class~="NRC2009"]>ul>li.rtNAEP1 .Level1,
+div[class~="NRC2009"]>ul>li.rtNAEP2 .Level1 {		
+	background-image: url(../images/bullet_blue_top.jpg);
+	background-position: left 1px;	
+	background-repeat: no-repeat;
+	padding: 0 0 3px 13px;
+}
+.NRC2009 div.Level3 .rtSp,
+div[class~="NRC2009"]>ul>li.rtNAEP1 div.Level2 .rtSp, 
+div[class~="NRC2009"]>ul>li.rtNAEP2 div.Selected-Level1 .rtSp {
+    height:1px;
+}

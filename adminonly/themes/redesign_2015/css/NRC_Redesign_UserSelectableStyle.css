@@ -1,0 +1,79 @@
+/* ===== CSS for template page contents 				================================== */
+/* ===== User can select these css from the ribbon area ================================== */
+/* ======================================================================================= */
+/* ===== READ ME 										================================== */
+/* To add customized styles and make it available in the ribbon, 
+/* add elements below to the <PublishingWebControls:RichHtmlField> control in the Page Layouts file Edit mode section.
+/*			a. PrefixStyleSheet="nrc-rte"
+/*			b. DefaultAssetLocation="/sites/cf/pages/"
+/*			c. Example:
+/*					<PublishingWebControls:RichHtmlField 
+/*							FieldName="MainContent" runat="server" 
+/*							PrefixStyleSheet="nrc-rte" 
+/*							DefaultAssetLocation="/sites/cf/pages/">
+/*					</PublishingWebControls:RichHtmlField>
+/* ======================================================================================= */
+
+
+/* ======================================================================================= */
+/* ===== BEGIN: Content Element Style ==================================================== */
+/* Page Elements */
+p.nrc-rteElement-p {
+	-ms-name: "Paragraph";
+	color: #323232;
+	font-size: 14px;
+	margin: 0 0 20px 0;
+}
+/* Text Styles */
+.nrc-rteStyle-headerWhite {
+	-ms-name: "Header White";
+	color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+}
+.nrc-rteStyle-headerOrange {
+	-ms-name: "Header Gold";
+	color: #c6912c;
+    font-size: 32px;
+    font-weight: bold;    
+}
+.nrc-rteStyle-title {
+	-ms-name: "Title";
+	color: #231f20;
+    font-size: 18px;
+    font-weight: bold;
+}
+.nrc-rteStyle-SubtitleBeige {
+	-ms-name: "Subtitle Beige";
+	color: #a79f89;
+	font-size: 16px;
+}
+.nrc-rteStyle-SubtitleTurquoise {
+	-ms-name: "Subtitle Green";
+	color: #00a795;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.nrc-rteStyle-SubtitleTurquoiseItalic {
+	-ms-name: "Subtitle Green Italic";
+	color: #00a795;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+.nrc-rteStyle-ParagraphWhite {
+	-ms-name: "Paragraph White";
+	color: #fff;
+	line-height: 2.5em;
+}
+.nrc-rteStyle-buleBullet {
+	-ms-name: "Blue bullet";   
+	background: url('../images/blueBullet.png') transparent no-repeat scroll left 0.4em;
+	color: #323232;
+	display: block;
+	list-style: none;
+	padding-left: 1.5em;
+}
+/* ===== END: Content Element Style ====================================================== */
+/* ======================================================================================= */

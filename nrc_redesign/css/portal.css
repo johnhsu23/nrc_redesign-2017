@@ -1,0 +1,32 @@
+#ets-portal table {
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    background: #eeeeee;
+    border:none;
+}
+#ets-portal table.no-format {
+    border-collapse: separate;
+    border-spacing: 0px 0px;    
+    border:none;
+}
+#ets-portal table td {
+    border-collapse: separate;
+    border-spacing: 20px 20px;
+    background: white;
+    vertical-align: top;
+}
+#ets-portal table td h3, #ets-portal table td h4, #ets-portal table td p, #ets-portal table td img{
+    margin-left:15px;
+}
+#ets-portal table td.twitter {    
+    padding-left: 0px;
+}
+.col-xs-12 {
+    padding: 0px;
+}
+.single-column .top-bluerow {
+    margin: 0px;
+}
+#what-is-p-value {
+    background: red;
+}

@@ -1,0 +1,32 @@
+<div style="align: right;">
+
+<form name="nde_selector" id="nde_selector">
+
+<select name="gradeid" id="gradeid" onchange="changegrade(this);">
+	<option>Select grade</option>
+	<option>Grade 4</option>
+	<option>Grade 8</option>
+</select>
+<br />
+<select name="variid" id="variid" onchange="changevari(this);">
+	<option>Select Student Group</option>
+	<option>All Students</option>
+	<option>Gender</option>
+	<option>Race/Ethnicity</option>
+	<option>School Lunch</option>
+	<option>School Location</option>
+	<option>Students with Disabilities</option>
+	<option>English Language Learners</option>
+
+</select>
+<br />
+<select name="statid" id="statid" onchange="changestat(this);">
+	<option>Select Statistic</option>
+	<option>Average Score/Percentages</option>
+	<option>Achievement Level</option>
+	<option>Percentiles</option>
+</select>
+<br />
+<input value="show table" onclick="showtable();" type="button">
+</form>
+</div>

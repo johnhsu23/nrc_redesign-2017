@@ -1,0 +1,20 @@
+/* iPhone  ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+	.nrc_header, .nrc_body, .nrc_footer {
+		min-width: 100%;
+	}
+	.nrc_header, .nrc_body, .footer-container {
+		width: 100%;
+	}
+	#headerLinks {
+		margin-top: -40px;
+	}
+	.top-bluerow .col-xs-3.social {
+		width: 28%;
+	}
+	.top-bluerow .col-xs-9 {
+		width: 72%;
+	}
+}

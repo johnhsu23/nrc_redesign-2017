@@ -1,0 +1,300 @@
+/* ==================================================
+      Styles applying to all NATIONSREPORTCARD.GOV portal pages 
+   ==================================================
+*/
+
+.bodycolor {
+  background-color: #e6e6e5;
+}
+.charttitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  background-color: transparent;
+}
+.contentblock {
+  width: 605px;
+}
+.contentindent {
+  padding-top: 0px;
+  padding-left: 10px;
+  padding-right: 6px;
+}
+.contenttitle {
+  font-size: 1.0em;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.doPrintMe {
+  display: none;
+}
+.footerblock {
+  width: 760px;
+}
+.footercontent p {
+  line-height: 2.0em;
+  margin-top: 4px;
+  display: block;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.7em;
+}
+.indent30px {
+  margin-left: 30px;
+}
+.notes {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+.pagenav {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #999999;
+}
+.PRINT_only {
+  background-color: #fff;
+  display: none;
+}
+.tablecaption {
+  text-align: top;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: #000;
+  background-color: transparent;
+}
+.tablecellsmalltext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.85em;
+}
+.taglinetext {
+  font-size: 15px;
+  font-style: oblique;
+  color: #E6E6E6;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  text-align: right;
+}
+.tinybodytext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.8em;
+}
+.topmenutext {
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 0.6em;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 3px;
+  margin-bottom: 4px;
+  margin-left: 18px;
+  margin-right: 16px;
+}
+a.downloadreportlink:link, a.downloadreportlink:visited {
+  color: #00f;
+  text-decoration: underline;
+}
+a.downloadreportlink:hover {
+  color: #c00;
+  text-decoration: underline;
+}
+a.footercontent:link, a.footercontent:visited {
+  color: #000;
+ background-color: transparent;
+  text-decoration: underline;
+}
+a.footercontent:hover {
+  color: #c00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a.glossary_link:link, a.glossary_link:visited {
+  color: #060;
+  background-color: transparent;
+  text-decoration: underline;
+  /* 
+  text-decoration: none;
+  border-bottom: dashed 1px #060;
+  */
+}
+a.glossary_link:hover {
+  color: #060;
+  background-color: transparent;
+  text-decoration: underline;
+  /* 
+  border-bottom: solid 1px #060;
+  */
+}
+/* 
+u {
+  text-decoration: none;
+}
+*/
+a.taglinelink:link, a.taglinelink:visited {
+  color: #E6E6E6;
+  text-decoration: none;
+}
+a.taglinelink:hover {
+  color: #E6E6E6;
+  text-decoration: none;
+}
+a.topmenulink:link, a.topmenulink:visited {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: hand;
+}
+a.topmenulink:hover {
+  color: #fff;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:link, a:visited {
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:hover {
+  color: #c00;
+  background-color: transparent;
+  text-decoration: underline;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 0px;
+  margin-top: 0px;
+  text-align: left;
+}
+caption {
+  text-align: left;
+}
+div#homebanner {
+  position:relative;
+}
+div#taglinediv {
+  position: absolute;
+  left:0;
+  top:0;
+  width: 750px;
+}
+h1 {
+  font-family: "Arial Narrow", "Helvetica Narrow", Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #B31F17;
+  background-color: transparent;
+}
+h1 {
+  font-size: 1.5em;
+}
+h2 {
+  font-size: 1.0em;
+}
+h2, h3 {
+  font-weight: bold;
+}
+h3 {
+  font-size: 0.9em;
+}
+h4 {
+  font-size: 0.7em;
+}
+hr.footerrule {
+  border: #333 1px solid;
+ }
+p, li, .normal  {
+  font-size: 0.80em;
+}
+td.contenttitleblock {
+  background-color: #545454;
+  width: 14px;
+}
+td.downloadreportstyle {
+  cursor: pointer;
+ text-align: right;
+}
+td.leftnavmenubgcolor {
+  background: #aaaaa8;
+}
+tr.topmenubarbgcolor {
+  background: #333;
+}
+
+/* =========================================
+   Styles added for rendering in eWebEditPro  
+   =========================================
+*/
+
+.NRC_only {
+  background-color: #FF99CC;
+}
+.NAEP_only {
+  background-color: #99CC33;
+}
+.PRINT_only {
+  background-color: #6df;
+  display: block;
+}
+.TAB1_only {
+  background-color: #fdf086;
+}
+.TAB2_only {
+  background-color: #ffe35f;
+}
+.TAB3_only {
+  background-color: #fecf60;
+}
+.TAB4_only {
+  background-color: #febf51;
+}
+.TAB5_only {
+  background-color: #feaa51;
+}
+.TAB6_only {
+  background-color: #fd965d;
+}
+.TAB7_only {
+  background-color: #f18970;
+}
+.TAB8_only {
+  background-color: #ed786f;
+}
+
+/* ==================================================
+   Styles for altering output when printing the page 
+   ==================================================
+*/
+@media print {
+  .footerblock {
+    width: 100%;
+  }
+  hr.footerrule {
+    border: #333 1px solid;
+    width: 100%;
+    margin-top: 24px;
+  }
+  hr.headerrule {
+    border: #333 1px solid;
+    width: 100%;
+  }
+  .contentblock {
+    width: 100%;
+  }
+  .contentindent {
+    padding-top: 1px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .PRINT_only {
+    background-color: #fff;
+    display: block;
+  }
+  .dontPrintMe {
+    display: none;
+  }
+  .doPrintMe {
+    display: block;
+  }
+}
+

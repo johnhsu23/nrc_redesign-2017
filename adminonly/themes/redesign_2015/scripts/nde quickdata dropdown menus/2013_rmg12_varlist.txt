@@ -1,0 +1,62 @@
+
+http://hera/nationsreportcard/naepdata/report.aspx?p=3-RED-2-20133,20093,20053,20023,19983,19982,19942,19922-RRPCM-TOTAL-NT-MN_MN-Y_J-0-0-5
+
+http://hera/nationsreportcard/naepdata/report.aspx?p=3-MAT-3-20133-MWPCM-M820905-NT-MN_MN-Y_J-0-0-5
+
+1_Y_J-0-0-5
+
+
+
+UTOL4
+20133,20093
+
+IEP
+20133,20093,20053,20023,19983
+
+LEP
+20133,20093,20053,20023,19983
+
+Highest level mathematics course
+
+MATCRST
+20133,20093
+
+Mathematics is a favorite subject
+
+M820905
+20133,20093
+
+Mathematics will help me in the future
+
+M820907
+20133
+
+Mathematics class work is engaging
+
+M824904
+20133,20093
+
+
+When I read a book, I learn a lot
+
+R833001
+
+20133,20093,20053,20023
+
+Reading is enjoyable
+
+R833002
+
+20133
+
+Explain what was read in class
+
+R848104
+
+20133,20093
+	
+Discuss reading interpretations
+
+R848108
+
+20133,20093

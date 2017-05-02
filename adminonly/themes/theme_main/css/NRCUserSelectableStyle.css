@@ -1,0 +1,347 @@
+﻿/* ===== CSS for template page contents 				================================== */
+/* ===== User can select these css from the ribbon area ================================== */
+/* ======================================================================================= */
+/* ===== READ ME 										================================== */
+/* To add customized styles and make it available in the ribbon, 
+/* add elements below to the <PublishingWebControls:RichHtmlField> control in the Page Layouts file Edit mode section.
+/*			a. PrefixStyleSheet="nrc-rte"
+/*			b. DefaultAssetLocation="/sites/cf/pages/"
+/*			c. Example:
+/*					<PublishingWebControls:RichHtmlField 
+/*							FieldName="MainContent" runat="server" 
+/*							PrefixStyleSheet="nrc-rte" 
+/*							DefaultAssetLocation="/sites/cf/pages/">
+/*					</PublishingWebControls:RichHtmlField>
+/* ======================================================================================= */
+
+
+/* ======================================================================================= */
+/* ===== BEGIN: Content Element Style ==================================================== */
+/* Page Elements */
+p.nrc-rteElement-p {
+	-ms-name: "Paragraph";
+}
+h1.nrc-rteElement-h1 {
+	-ms-name: "Heading 1";
+	color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+}
+h2.nrc-rteElement-h2 {
+	-ms-name: "Heading 2";
+    color: #8BB530;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+h3.nrc-rteElement-h3 {
+	-ms-name: "Heading 3";
+	line-height: 1.4;
+}
+h4.nrc-rteElement-h4 {
+	-ms-name: "Heading 4";
+	line-height: 1.6;
+}
+
+/* Text Styles */
+.nrc-rteStyle-pageHeaderGreen {
+	-ms-name:"Green double line";
+	border-top: dotted 2px #c4df9b;
+	border-bottom: dotted 2px #c4df9b;
+}
+.nrc-rteStyle-pageHeaderBlue {
+	-ms-name:"Blue double line";
+	border-top: dotted 2px #87beed;
+	border-bottom: dotted 2px #87beed;
+}
+.nrc-rteStyle-headerGreen {
+	-ms-name: "Header green";
+    color: #8BB530;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 1em 0;
+}
+.nrc-rteStyle-orangeBulletList {
+	-ms-name: "Orange bullet";
+    background: url('../Images/bullet_orange.gif') no-repeat left top;    
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+.nrc-rteStyle-greenBulletList {
+	-ms-name: "Green bullet";
+    background: url('../Images/bullet_green.gif') no-repeat left top;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+.nrc-rteStyle-blueBulletList {
+	-ms-name: "Blue bullet";
+    background: url('../Images/bullet_blue.jpg') no-repeat left top;
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding-left: 15px;
+}
+/* replace margin-left of regular ul */
+ul .nrc-rteStyle-orangeBulletList, 
+ul .nrc-rteStyle-greenBulletList, 
+ul .nrc-rteStyle-blueBulletList { margin-left: -2em; }
+
+.nrc-rteStyle-hrGreen {
+	-ms-name: "Green line";
+	background: url('../Images/line_dashedgreen.gif') repeat-x left top;
+	border: 0;
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+}
+.nrc-rteStyle-hrBlue {
+	-ms-name: "Blue line";
+	background: url('../Images/line_dashedblue.gif') repeat-x left top;
+	border: 0;
+	display: block;		
+	width: 100%;	
+	padding: 5px 0;
+}
+/* ===== END: Content Element Style ====================================================== */
+/* ======================================================================================= */
+
+
+/* ===== Tab Content Style =============================================================== */
+/* Tabs Page Elements */
+h1.naep-tabElement-h1 {
+	-ms-name: "Tab heading 1";
+	color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 0;
+    padding: 2px 0;
+}
+h2.naep-tabElement-h2 {
+	-ms-name: "Tab heading 2";
+    color: #8BB530;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+/* Tabs Text Style */
+.naep-tabStyle-arrowGreater-thanOrange {
+	-ms-name: "Orange arrow";
+	background: url('../Images/arrow_greater-thanOrange.jpg') #fff no-repeat scroll left top;
+	display: inline-block;
+	width: 14px;
+	height: 12px;
+}
+/* ======================================================================================= */
+
+
+/* ======================================================================================= */
+/* ===== NRC TABLE STYLES ================================================================ */
+
+/* ===== BEGIN: Default Table Style ====================================================== */
+/* ===== This is must have style as NAEP custom style overrides MS default style ========= */
+/* ===== Copied over from the corev4.css and changed from .ms-rte* to .nrc-rte* ========== */
+.nrc-rteTable-default,
+.nrc-rteTableHeaderFirstCol-default,
+.nrc-rteTableHeaderLastCol-default,
+.nrc-rteTableHeaderOddCol-default,
+.nrc-rteTableHeaderEvenCol-default,
+.nrc-rteTableFirstCol-default,
+.nrc-rteTableLastCol-default,
+.nrc-rteTableOddCol-default,
+.nrc-rteTableEvenCol-default,
+.nrc-rteTableFooterFirstCol-default,
+.nrc-rteTableFooterLastCol-default,
+.nrc-rteTableFooterOddCol-default,
+.nrc-rteTableFooterEvenCol-default,
+td.nrc-rteTable-default,
+th.nrc-rteTable-default,
+.nrc-rtetablecells {
+	-ms-name: "Default";
+	border-collapse:collapse;
+	border: #c4c4c4 1px solid; 
+	padding: 2px; 
+	vertical-align: top;
+}
+/* ===== END: Default Table Style ===================================================== */
+
+/* ===== BEGIN: NRC Table - Clear ===================================================== */
+table.nrc-rteTable-NRC-0-Clear {
+	-ms-name: "Clear";
+	border: 0; 
+}
+/* footer row/column */
+.nrc-rteTableFooterRow-NRC-0-Clear,
+.nrc-rteTableFooterRow-NRC-0-Clear th,
+.nrc-rteTableFooterRow-NRC-0-Clear td,
+th.nrc-rteTableFooterFirstCol-NRC-0-Clear,
+td.nrc-rteTableFooterFirstCol-NRC-0-Clear {
+    font-weight: normal;
+}	
+/* ===== END: NRC Table - Clear ======================================================= */
+
+/* ===== BEGIN: NRC Table - Blue Column Header with Green Row Header =================== */
+table.nrc-rteTable-NRC-1-BlueColHeaderGreenRowHeader {
+	-ms-name:"Blue column header with green row header";
+	border:0;
+	border-collapse: collapse;	
+	font-size: 12px;
+	text-align: center;
+	vertical-align: top;
+}
+/* all columns */
+.nrc-rteTable-NRC-1-BlueColHeaderGreenRowHeader th, .nrc-rteTable-NRC-1-BlueColHeaderGreenRowHeader td {
+	border:1px #666 solid;
+	border-spacing: 0;
+	padding: 3px;
+}
+/* First colums of rows */
+.nrc-rteTableFirstCol-NRC-1-BlueColHeaderGreenRowHeader {
+	background-color: #ebf5dc;
+    font-weight: bold;
+    text-align: left;
+}
+/* Header row */
+.nrc-rteTableHeaderRow-NRC-1-BlueColHeaderGreenRowHeader th {
+	background-color: #99ccff;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+}
+/* First colum of first row */
+.nrc-rteTable-NRC-1-BlueColHeaderGreenRowHeader tr:first-child th:first-child {
+	text-align: left;
+}
+/* footer row/column */
+.nrc-rteTableFooterRow-NRC-1-BlueColHeaderGreenRowHeader,
+.nrc-rteTableFooterRow-NRC-1-BlueColHeaderGreenRowHeader th,
+.nrc-rteTableFooterRow-NRC-1-BlueColHeaderGreenRowHeader td,
+th.nrc-rteTableFooterFirstCol-NRC-1-BlueColHeaderGreenRowHeader,
+td.nrc-rteTableFooterFirstCol-NRC-1-BlueColHeaderGreenRowHeader {
+	background-color: #fff;
+	border:0;
+	font-size: 9px;
+	text-align:left;
+}
+/* ===== END: NRC Table - Blue Column Header with Green Row Header =================== */
+
+/* ===== BEGIN: NRC Table - Light Green Headers ====================================== */
+table.nrc-rteTable-NRC-2-LightGreenHeaders{
+	-ms-name: "Light green headers";
+	border:0;
+	border-collapse: collapse;
+}
+/* headers columns */
+.nrc-rteTable-NRC-2-LightGreenHeaders th {
+	background-color: #ebf5dc;
+	border: 1px #888888 solid;
+}
+/* data columns */
+.nrc-rteTable-NRC-2-LightGreenHeaders td { 
+	border: 1px #888888 solid;
+}
+/* first header column */
+.nrc-rteTable-NRC-2-LightGreenHeaders th:first-child {
+	border-left: 0;
+}
+/* last column */
+td.nrc-rteTableLastCol-NRC-2-LightGreenHeaders,
+th.nrc-rteTableHeaderLastCol-NRC-2-LightGreenHeaders,
+th.nrc-rteTableLastCol-NRC-2-LightGreenHeaders {
+	border-right: 0;
+}
+/* caption */
+.nrc-rteTable-NRC-2-LightGreenHeaders caption {
+	font-size: 12px;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+/* footer row/column */
+.nrc-rteTableFooterRow-NRC-2-LightGreenHeaders,
+.nrc-rteTableFooterRow-NRC-2-LightGreenHeaders th,
+.nrc-rteTableFooterRow-NRC-2-LightGreenHeaders td,
+th.nrc-rteTableFooterFirstCol-NRC-2-LightGreenHeaders,
+td.nrc-rteTableFooterFirstCol-NRC-2-LightGreenHeaders {
+	background-color: #fff;
+	border:0;
+	font-size: 9px;
+	text-align:left;
+}
+/* ===== END: NRC Table - Light Green Headers ============================================= */
+
+/* ===== END: NRC TABLE STYLES ============================================================ */
+/* ======================================================================================== */
+
+
+/* ======================================================================================== */
+/* ===== SharePoint default ribbon styles ================================================= */
+/* ======================================================================================== */
+
+/* Positions Styles */
+.nrc-rtePosition-1 {
+	-ms-name:"Left";
+    float: left;
+}
+.nrc-rtePosition-2 {
+	-ms-name:"Right";
+    float: right;
+}
+.nrc-rtePosition-3 {
+	-ms-name:"Top";
+    vertical-align: text-top;
+}
+.nrc-rtePosition-4 {
+	-ms-name:"Middle";
+    vertical-align: middle;
+}
+.nrc-rtePosition-5 {
+	-ms-name:"Bottom";
+    vertical-align: text-bottom;
+}
+
+/* Image Styles */
+.nrc-rteImage-0 {
+	-ms-name:"No border";
+}
+.nrc-rteImage-1 {
+	-ms-name:"Thin line border";
+    background-color: #182738;
+    background-image: url("/_layouts/images/tabtitlerowbottombg.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border: 1px solid #385B83;
+}
+.nrc-rteImage-2 {
+	-ms-name:"Table border";
+    border-color: #D8D8D8 #BFBFBF #BFBFBF #D8D8D8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+}
+.nrc-rteImage-3 {
+	-ms-name:"Dark border";
+    background-attachment: fixed;
+    background-color: #182738;
+    background-image: url("/_layouts/images/tabtitlerowbottombg.png");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding: 15px;
+}
+.nrc-rteImage-4 {
+	-ms-name:"Light border";
+    background-color: #F2F2F2;
+    background-image: url("/_layouts/images/selbg.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-color: #D8D8D8 #BFBFBF #BFBFBF #D8D8D8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 6px 33px;
+}
+/* ======================================================================================== */

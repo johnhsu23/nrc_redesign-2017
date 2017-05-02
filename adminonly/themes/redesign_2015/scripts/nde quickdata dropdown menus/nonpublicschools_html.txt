@@ -1,0 +1,51 @@
+
+
+<form name="nde_selector" id="nde_selector">
+
+<table bgcolor="#d5d5d5" border="0" cellpadding="3" cellspacing="0">
+<tbody><tr>
+  <td colspan="2" style="font-size: 12px; font-weight: bold; font-family: arial; text-align: left; border-left: 1px solid black; border-right: 1px solid black; border-top: 1px solid black; border-color: black; border-width: 1px;">
+Private School Quick Data
+</td>
+</tr>
+<tr><td style="border-left: 1px solid black; border-bottom: 1px solid black; border-color: black; border-width: 1px;" align="right" valign="top" width="135">
+<select name="subjectid" id="subjectid" onchange="changesubject(this);">
+<option>Select subject</option>
+<option>Civics</option>
+
+<option>Economics</option>
+<option>Mathematics</option>
+<option>Music</option>
+<option>Reading</option>
+<option>Science</option>
+<option>U.S. History</option>
+<option>Visual Arts</option>
+<option>Writing</option>
+</select>
+
+<select name="gradeid" id="gradeid" onchange="changegrade(this);">
+<option>Select grade</option>
+<option>Grade 4</option>
+<option>Grade 8</option>
+<option>Grade 12</option>
+</select></td>
+<td style="border-right: 1px solid black; border-bottom: 1px solid black; border-color: black; border-width: 1px;" align="right" valign="top" width="270">
+<select name="variid" id="variid" onchange="changevari(this);">
+<option>Select variable</option>
+<option>Public or private school (2 category)</option>
+<option>Public or nonpublic school (5 category)</option>
+
+</select>
+<select name="statid" id="statid" onchange="changestat(this);">
+<option>Select statistic</option>
+<option>Average Scale Score</option>
+<option>Achievement Level (Cumulative)</option>
+<option>Percentiles</option>
+</select>
+<input value="show table" onclick="showtable();" type="button">
+
+</td></tr>
+
+</tbody></table>
+</form>
+

@@ -1,0 +1,84 @@
+.NRCMenu div.menuLevel0 {
+	background-color: #C4DF9B;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	list-style: none;
+	width: 150px;
+	/*height: 25px;*/
+}
+/* all menu items */
+.NRCMenu ul li {
+	width: 150px;
+	white-space: normal;
+}
+/* all menu item text */
+.NRCMenu .rmText {
+	width: 90%;
+}
+.NRCMenu li.menuLevel1,
+.NRCMenu li.menuLevel1 a.rmExpanded {	
+	background: url(../images/leftNavUnderlineGreen.jpg) #ebf5dc repeat-x scroll center bottom !important;
+	list-style: none;
+	width: 150px;
+	padding: 2px 0;
+}
+.NRCMenu .rmLevel1 li.menuLevel2 {
+	list-style:none;
+	width:150px;	
+	background-color: #ebf5dc;
+}
+.NRCMenu a.rmLink {
+	font: 11px Arial,Helvetica,sans-serif !important; 
+}
+.NRCMenu .rmVertical a.rmLink,
+.NRCMenu .rmVertical .rmText {
+	margin: 0 !important;
+    padding: 0 5px !important;
+}
+
+/* dropdown down arrow div containter */
+.NRCMenu .RadMenu_Default {	margin-top: -3px; }
+/* down arrow */
+.NRCMenu .rmRootLink span.rmText, .NRCMenu .rmRootLink span.rmText:hover {
+    padding-left: 3px !important;  
+    background: url(../images/arrows-000000.png) transparent no-repeat scroll 133px -100px !important;
+    width: 86%;
+}
+/* right arrow */
+.NRCMenu .menuLevel2 a.rmLink span.rmExpandRight {
+	background: url(../images/arrows-000000.png) transparent no-repeat scroll 132px 1px !important;
+}
+
+/* clear Telerik's default gray background */
+.NRCMenu .RadMenu_Default .rmRootGroup, 
+.NRCMenu .RadMenu_Default a.rmLink, 
+.NRCMenu .RadMenu_Default .rmGroup .rmText, 
+.NRCMenu .RadMenu_Default .rmVertical .rmText, 
+.NRCMenu .RadMenu_Default .rmLeftArrow, 
+.NRCMenu .RadMenu_Default .rmRightArrow, 
+.NRCMenu .RadMenu_Default .rmTopArrow, 
+.NRCMenu .RadMenu_Default .rmBottomArrow {
+    background-image: none ;
+    background-color: transparent;
+}
+.NRCMenu .rmLink:hover, .NRCMenu .rmText:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.NRCMenu .menuLevel2 a.rmLink /*span.rmText*/ {
+	background: url(../images/leftNavUnderlineGreen.jpg) #ebf5dc repeat-x scroll 20px bottom !important;
+    padding: 3px 0 4px 5px !important;
+}
+.NRCMenu ul.rmRootGroup,
+.NRCMenu ul.rmGroup {    
+    background-image: none;
+    border: 0 !important;
+    margin-top: 5px;
+}
+.NRCMenu .rmSlide ul.rmLevel1 {
+	padding-top: 3px;
+	background: url(../images/leftNavUnderlineGreen.jpg) #ebf5dc repeat-x scroll center top;
+}
+.NRCMenu ul.rmVertical .rmSlide { 
+	margin: 0;
+}

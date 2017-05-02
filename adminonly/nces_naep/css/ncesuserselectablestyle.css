@@ -1,0 +1,598 @@
+﻿/* ===== CSS for template page contents 				================================== */
+/* ===== User can select these css from the ribbon area ================================== */
+/* ======================================================================================= */
+
+/* ======================================================================================= */
+/* ===== BEGIN: Content Element Style ==================================================== */
+h2.naep-rteElement-h2 {
+	-ms-name: "Heading 2";
+	margin: 0;
+	font-size: 14px;
+	color: #048;
+}
+h3.naep-rteElement-h3 {
+	-ms-name: "Heading 3";
+	margin: 1em 0 !important;
+    color: #333333;
+    font-size: 1em;
+    padding: 0;
+}
+
+p.naep-rteElement-p {
+	-ms-name: "Paragraph";
+	display: block;
+	-webkit-margin-before: 1em;
+	-webkit-margin-after: 1em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+}
+
+/*
+a.naep-rteStyle-a {
+	-ms-name: "Italicized Link";
+}
+.naep-rteStyle-a, .naep-rteStyle-a:visited {	
+	font-size: 12px;
+	text-decoration: underline;
+	color: #084782;
+}
+.naep-rteStyle-a:hover {
+	text-decoration: none;
+}
+*/
+
+.naep-rteStyle-phead {
+	-ms-name: "Paragraph heading";
+	font-size: 105%;
+	font-family: sans-serif;
+	text-align: left;
+	margin: 6px 0 4px 0;
+	font-weight: bold;
+	color: #084782;
+}
+.naep-rteStyle-up {
+	-ms-name:"Blue text in paragraph";
+	margin: 6px 0 0 0;
+	font-size: 0.9em;
+	color: #2C6EAB;
+	text-decoration: none !important;
+}
+.naep-rteStyle-greentext {
+	-ms-name:"Green Text";
+	color: rgb(1, 147, 63);
+}
+.naep-rteStyle-red_summary_text {
+	-ms-name:"Red summary text";
+    color: #660000;
+    font-family: Arial,Helvetica,Geneva,sans-serif;
+    font-size: 110%;
+    font-style: italic;
+    font-weight: bold;
+}
+.naep-rteStyle-prettyList {
+	-ms-name:"List - Green diamond image";
+    background: url('../images/common/bltgrdi2.gif') no-repeat left 0.3em;
+    display: block;
+    list-style: none;
+    margin: 0.4em 0 0.4em 15px;
+    padding-left: 17px;
+}
+
+/* ===== END: Content Element Style ====================================================== */
+/* ======================================================================================= */
+
+
+/* ======================================================================================= */
+/* ===== BEGIN: NCES TABLE STYLES ======================================================== */
+
+/* ===== BEGIN: Default Table Style ====================================================== */
+/* ===== This is a must have style as NAEP custom style overrides MS default style ======= */
+/* ===== Copied over from the corev4.css and changed from .naep-rte* to .naep-rte* ======= */
+.naep-rteTable-default,
+.naep-rteTableHeaderFirstCol-default,
+.naep-rteTableHeaderLastCol-default,
+.naep-rteTableHeaderOddCol-default,
+.naep-rteTableHeaderEvenCol-default,
+.naep-rteTableFirstCol-default,
+.naep-rteTableLastCol-default,
+.naep-rteTableOddCol-default,
+.naep-rteTableEvenCol-default,
+.naep-rteTableFooterFirstCol-default,
+.naep-rteTableFooterLastCol-default,
+.naep-rteTableFooterOddCol-default,
+.naep-rteTableFooterEvenCol-default,
+td.naep-rteTable-default,
+th.naep-rteTable-default,
+.naep-rtetablecells {
+	-ms-name: "Default";
+	border-collapse:collapse;
+	border: #c4c4c4 1px solid; 
+	padding: 2px; 
+	vertical-align: top;
+	text-align: left;
+}
+/* header column */
+.naep-rteTable-default th {
+	text-align: left;
+}
+
+/* ===== END: Default Table Style ====================================================== */
+
+/* ===== BEGIN: NCES Table - Clear ===================================================== */
+table.naep-rteTable-NCES-0-Clear {
+	-ms-name: "Clear";
+	border: 0; 
+}
+/* header column */
+.naep-rteTable-NCES-0-Clear th {
+	text-align: left;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-0-Clear,
+.naep-rteTableFooterRow-NCES-0-Clear th,
+.naep-rteTableFooterRow-NCES-0-Clear td,
+th.naep-rteTableFooterFirstCol-NCES-0-Clear,
+td.naep-rteTableFooterFirstCol-NCES-0-Clear {
+    font-weight: normal;
+}	
+/* ===== END: NCES Table - Clear ======================================================= */
+
+/* ===== BEGIN: NCES Table - Blue Border With No Left & Right Border =================== */
+table.naep-rteTable-NCES-1-BlueBorderWithNoLeftRightBorder {
+	-ms-name: "NCES Table - Blue Border With No Left & Right Border";
+	border-collapse: collapse;
+	border-bottom: 3px solid #5179A9;
+}
+/* all columns */
+.naep-rteTable-NCES-1-BlueBorderWithNoLeftRightBorder th,
+.naep-rteTable-NCES-1-BlueBorderWithNoLeftRightBorder td {
+	border: 2px solid #5179A9;
+}
+/* header column */
+.naep-rteTable-NCES-1-BlueBorderWithNoLeftRightBorder th {
+	text-align: left;
+}
+/* header row */
+.naep-rteTableHeaderRow-NCES-1-BlueBorderWithNoLeftRightBorder th {
+	border-top: 3px solid #5179A9;
+}
+/* first column */
+th.naep-rteTableHeaderFirstCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+th.naep-rteTableFirstCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+td.naep-rteTableFirstCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+th.naep-rteTableFooterFirstCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+td.naep-rteTableFooterFirstCol-NCES-1-BlueBorderWithNoLeftRightBorder {
+	border-left: 0;
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+td.naep-rteTableLastCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+th.naep-rteTableHeaderLastCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+th.naep-rteTableFooterLastCol-NCES-1-BlueBorderWithNoLeftRightBorder,
+td.naep-rteTableFooterLastCol-NCES-1-BlueBorderWithNoLeftRightBorder {
+	border-right: 0;
+}
+/* footer row 
+.naep-rteTableFooterRow-NCES-1-BlueBorderWithNoLeftRightBorder,
+.naep-rteTableFooterRow-NCES-1-BlueBorderWithNoLeftRightBorder td,
+.naep-rteTableFooterRow-NCES-1-BlueBorderWithNoLeftRightBorder th {
+	border:0;
+	font-size: 9px;
+}*/
+/* ===== END: NCES Table - Blue Border With No Left & Right Border ==================== */
+
+/* ===== BEGIN: NCES Table - Light Blue Border ======================================== */
+table.naep-rteTable-NCES-2-LightBlueBorder {
+	-ms-name: "NCES Table - Light Blue Border";
+	border-collapse: collapse;
+	border: 0;
+}
+/* header column */
+.naep-rteTable-NCES-2-LightBlueBorder th {
+	text-align: left;
+}
+/* all columns */
+.naep-rteTable-NCES-2-LightBlueBorder td,
+.naep-rteTable-NCES-2-LightBlueBorder th {
+	border: 1px solid #d2d8f9;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-2-LightBlueBorder,
+.naep-rteTableFooterRow-NCES-2-LightBlueBorder th,
+.naep-rteTableFooterRow-NCES-2-LightBlueBorder td,
+th.naep-rteTableFooterFirstCol-NCES-2-LightBlueBorder,
+td.naep-rteTableFooterFirstCol-NCES-2-LightBlueBorder {
+	background-color: transparent;
+	border:0;
+	font-size: 9px;
+}
+/* ===== END: NCES Table - Light Blue Border ========================================== */
+
+/* ===== BEGIN: NCES Table - Cyan Blue Background ===================================== */
+table.naep-rteTable-NCES-3-CyanBlueBackground {
+	-ms-name: "NCES Table - Cyan Blue Background";
+	border-collapse: collapse;
+	border: 0;
+	margin: 0.5em auto;
+}
+/* header rows */
+.naep-rteTable-NCES-3-CyanBlueBackground thead tr th {
+	border-bottom: thin #2277bb solid;
+}
+/* header column */
+.naep-rteTable-NCES-3-CyanBlueBackground th {
+	text-align: left;
+}
+/* all columns */
+.naep-rteTable-NCES-3-CyanBlueBackground td,
+.naep-rteTable-NCES-3-CyanBlueBackground th {
+	border: thin solid #2277bb;
+	border-bottom: thin #fff solid;
+	background-color: #66ddff;	
+	font-size: 80%;
+	padding-left: 0.5em;
+    padding-right: 0.5em;
+    vertical-align: middle;
+}
+/* first column */
+th.naep-rteTableHeaderFirstCol-NCES-3-CyanBlueBackground,
+th.naep-rteTableFirstCol-NCES-3-CyanBlueBackground,
+td.naep-rteTableFirstCol-NCES-3-CyanBlueBackground,
+th.naep-rteTableFooterFirstCol-NCES-3-CyanBlueBackground,
+td.naep-rteTableFooterFirstCol-NCES-3-CyanBlueBackground {
+	border-left: 0;
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-3-CyanBlueBackground,
+td.naep-rteTableLastCol-NCES-3-CyanBlueBackground,
+th.naep-rteTableHeaderLastCol-NCES-3-CyanBlueBackground,
+th.naep-rteTableFooterLastCol-NCES-3-CyanBlueBackground,
+td.naep-rteTableFooterLastCol-NCES-3-CyanBlueBackground {
+	border-right: 0;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-3-CyanBlueBackground,
+.naep-rteTableFooterRow-NCES-3-CyanBlueBackground th,
+.naep-rteTableFooterRow-NCES-3-CyanBlueBackground td,
+th.naep-rteTableFooterFirstCol-NCES-3-CyanBlueBackground,
+td.naep-rteTableFooterFirstCol-NCES-3-CyanBlueBackground {
+	background-color: transparent;
+	border: 0;	
+	font-size: 9px;
+	font-weight:normal;
+	text-align: left;
+}
+/* footer row */
+tr.naep-rteTableFooterRow-NCES-3-CyanBlueBackground {
+	border-top: 2px #2277bb solid;
+}
+/* ===== END: NCES Table - Cyan Blue Background ====================================== */
+
+/* ===== BEGIN: NCES Table - Red Border & Light Pink Background ====================== */
+table.naep-rteTable-NCES-4-RedBorderLightPinkBackground {
+	-ms-name: "NCES Table - Red Border & Light Pink Background";
+	border-collapse: collapse;
+	border: 0;
+	border-spacing: 0;
+	margin: 0.5em auto;
+}
+/* header column */
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground th {
+	text-align: left;
+}
+/* header rows */
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground thead tr th,
+.naep-rteTableHeaderRow-NCES-4-RedBorderLightPinkBackground,
+tr.naep-rteTableHeaderRow-NCES-4-RedBorderLightPinkBackground th {
+	border-top: 3px solid #800000;
+	border-bottom: 3px solid #800000;
+	vertical-align: bottom;
+}
+/* all columns */
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground td,
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground th {
+    background-color: #F5E4DF;    
+    /*border-top: 2px solid #fff;*/
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+    padding: 2px 0.5em;
+}
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground td {
+	text-align: right;
+}
+/* first column */
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground th:first-child,
+th.naep-rteTableHeaderFirstCol-NCES-4-RedBorderLightPinkBackground,
+th.naep-rteTableFirstCol-NCES-4-RedBorderLightPinkBackground,
+td.naep-rteTableFirstCol-NCES-4-RedBorderLightPinkBackground,
+th.naep-rteTableFooterFirstCol-NCES-4-RedBorderLightPinkBackground,
+td.naep-rteTableFooterFirstCol-NCES-4-RedBorderLightPinkBackground {
+	border-left: 0;
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-4-RedBorderLightPinkBackground,
+td.naep-rteTableLastCol-NCES-4-RedBorderLightPinkBackground,
+th.naep-rteTableHeaderLastCol-NCES-4-RedBorderLightPinkBackground,
+th.naep-rteTableFooterLastCol-NCES-4-RedBorderLightPinkBackground,
+td.naep-rteTableFooterLastCol-NCES-4-RedBorderLightPinkBackground {
+	border-right: 0;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-4-RedBorderLightPinkBackground ,
+.naep-rteTableFooterRow-NCES-4-RedBorderLightPinkBackground th,
+.naep-rteTableFooterRow-NCES-4-RedBorderLightPinkBackground td,
+th.naep-rteTableFooterFirstCol-NCES-4-RedBorderLightPinkBackground ,
+td.naep-rteTableFooterFirstCol-NCES-4-RedBorderLightPinkBackground {
+	background-color: transparent;
+	border: 0;	
+	border-top: 3px solid #800000 !important;
+	border-collapse: collapse;
+	font-size: 100%; 
+	font-weight:normal;
+	padding: 10px;
+	text-align: left;
+}	
+/* caption */
+.naep-rteTable-NCES-4-RedBorderLightPinkBackground caption {	
+	text-align: left;
+	font-weight: bold;
+	padding: 10px 0;
+}
+/* ===== END: BEGIN: NCES Table - Red Border & Light Pink Background ====================== */
+
+/* ===== BEGIN: NCES Table - Black Border With No Vertical Border ========================= */
+table.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder {
+	-ms-name: "NCES Table - Black Border With No Vertical Border";
+	border-collapse: collapse;
+	border: 0;
+	border-spacing: 0;
+	margin: 0.5em auto;
+}
+/* header column */
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder th {
+	text-align: left;
+}
+/* header rows */
+tr.naep-rteTableHeaderRow-NCES-5-BlackBorderWithNoVerticalBorder,
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder thead tr th {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+	/*vertical-align: bottom;*/
+}
+/* all columns */
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder td,
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder th {
+    background-color: #fff;
+    /*border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff; 
+    border-left: 2px solid #fff;
+    padding: 2px 0.5em;*/
+}
+.naep-rteTable-NCES-5-RedBorderLightPinkBackground td {
+	text-align: right;
+}
+/* first column */
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder th:first-child,
+th.naep-rteTableHeaderFirstCol-NCES-5-BlackBorderWithNoVerticalBorder,
+th.naep-rteTableFirstCol-NCES-5-BlackBorderWithNoVerticalBorder,
+td.naep-rteTableFirstCol-NCES-5-BlackBorderWithNoVerticalBorder,
+th.naep-rteTableFooterFirstCol-NCES-5-BlackBorderWithNoVerticalBorder,
+td.naep-rteTableFooterFirstCol-NCES-5-BlackBorderWithNoVerticalBorder {
+	border-left: 0;
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-5-BlackBorderWithNoVerticalBorder,
+td.naep-rteTableLastCol-NCES-5-BlackBorderWithNoVerticalBorder,
+th.naep-rteTableHeaderLastCol-NCES-5-BlackBorderWithNoVerticalBorder,
+th.naep-rteTableFooterLastCol-NCES-5-BlackBorderWithNoVerticalBorder,
+td.naep-rteTableFooterLastCol-NCES-5-BlackBorderWithNoVerticalBorder {
+	border-right: 0;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-5-BlackBorderWithNoVerticalBorder,
+.naep-rteTableFooterRow-NCES-5-BlackBorderWithNoVerticalBorder th,
+.naep-rteTableFooterRow-NCES-5-BlackBorderWithNoVerticalBorder td,
+th.naep-rteTableFooterFirstCol-NCES-5-BlackBorderWithNoVerticalBorder,
+td.naep-rteTableFooterFirstCol-NCES-5-BlackBorderWithNoVerticalBorder {
+	background-color: transparent;
+	border: 0;	
+	border-top: 1px solid #000 !important;
+	border-collapse: collapse;
+	font-size: 100%; 
+	font-weight:normal;
+	padding: 5px 0;
+	text-align: left;
+}	
+/* caption */
+tr.naep-rteTableFooterRow-NCES-5-BlackBorderWithNoVerticalBorder,
+.naep-rteTable-NCES-5-BlackBorderWithNoVerticalBorder caption {	
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 0;
+}
+/* ===== END: BEGIN: NCES Table - Black Border With No Vertical Border ====================== */
+
+/* ===== BEGIN: NCES Table - Gray Border ==================================================== */
+table.naep-rteTable-NCES-6-GrayBorder {
+	-ms-name: "NCES Table - GrayBorder";
+	border-collapse: collapse;
+	border: 0; 
+}
+/* header column */
+.naep-rteTable-NCES-6-GrayBorder th {
+	text-align:left;
+}
+/* header rows */
+tr.naep-rteTableHeaderRow-NCES-6-GrayBorder,
+.naep-rteTable-NCES-6-GrayBorder thead tr th {
+	font-weight: bold;
+}
+/* all columns */
+.naep-rteTable-NCES-6-GrayBorder td,
+.naep-rteTable-NCES-6-GrayBorder th {
+    border: 1px #666 solid;    
+}
+/* first column */
+.naep-rteTable-NCES-6-GrayBorder th:first-child,
+th.naep-rteTableHeaderFirstCol-NCES-6-GrayBorder,
+th.naep-rteTableFirstCol-NCES-6-GrayBorder,
+td.naep-rteTableFirstCol-NCES-6-GrayBorder,
+th.naep-rteTableFooterFirstCol-NCES-6-GrayBorder,
+td.naep-rteTableFooterFirstCol-NCES-6-GrayBorder {
+	/*border-left: 0;*/
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-6-GrayBorder,
+td.naep-rteTableLastCol-NCES-6-GrayBorder,
+th.naep-rteTableHeaderLastCol-NCES-6-GrayBorder,
+th.naep-rteTableFooterLastCol-NCES-6-GrayBorder,
+td.naep-rteTableFooterLastCol-NCES-6-GrayBorder {
+	/*border-right: 0;*/
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-6-GrayBorder,
+.naep-rteTableFooterRow-NCES-6-GrayBorder th,
+.naep-rteTableFooterRow-NCES-6-GrayBorder td,
+th.naep-rteTableFooterFirstCol-NCES-6-GrayBorder,
+td.naep-rteTableFooterFirstCol-NCES-6-GrayBorder {
+    font-size: 8pt; 
+    font-weight: normal;
+    text-align: left;
+    vertical-align: bottom;
+}	
+/* caption */
+tr.naep-rteTableFooterRow-NCES-6-GrayBorder,
+.naep-rteTable-NCES-6-GrayBorder caption {	
+	text-align: left;
+	font-weight: bold;
+}
+/* ===== END: NCES Table - Gray Border ==================================================== */
+
+/* ===== BEGIN: NCES Table - Blue Border No Left Right Border ============================= */
+table.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder {
+	-ms-name: "NCES Table - BlueBorderNoLeftRightBorder";
+	border-collapse: collapse;
+	border: 0; 
+}
+/* header column */
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder th {
+	text-align:left;
+}
+/* header rows */
+tr.naep-rteTableHeaderRow-NCES-7-BlueBorderNoLeftRightBorder,
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder thead tr th {
+	font-weight: bold;
+}
+/* all columns */
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder td,
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder th {
+    border: 2px solid #5179A9;  
+}
+/* first column */
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder th:first-child,
+th.naep-rteTableHeaderFirstCol-NCES-7-BlueBorderNoLeftRightBorder,
+th.naep-rteTableFirstCol-NCES-7-BlueBorderNoLeftRightBorder,
+td.naep-rteTableFirstCol-NCES-7-BlueBorderNoLeftRightBorder,
+th.naep-rteTableFooterFirstCol-NCES-7-BlueBorderNoLeftRightBorder,
+td.naep-rteTableFooterFirstCol-NCES-7-BlueBorderNoLeftRightBorder {
+	border-left: 0;	
+}
+/* last column */
+th.naep-rteTableLastCol-NCES-7-BlueBorderNoLeftRightBorder,
+td.naep-rteTableLastCol-NCES-7-BlueBorderNoLeftRightBorder,
+th.naep-rteTableHeaderLastCol-NCES-7-BlueBorderNoLeftRightBorder,
+th.naep-rteTableFooterLastCol-NCES-7-BlueBorderNoLeftRightBorder,
+td.naep-rteTableFooterLastCol-NCES-7-BlueBorderNoLeftRightBorder {
+	border-right: 0;
+}
+/* footer row/column */
+.naep-rteTableFooterRow-NCES-7-BlueBorderNoLeftRightBorder,
+.naep-rteTableFooterRow-NCES-7-BlueBorderNoLeftRightBorder th,
+.naep-rteTableFooterRow-NCES-7-BlueBorderNoLeftRightBorder td,
+th.naep-rteTableFooterFirstCol-NCES-7-BlueBorderNoLeftRightBorder,
+td.naep-rteTableFooterFirstCol-NCES-7-BlueBorderNoLeftRightBorder {
+	border: 0;	
+	border-top: 2px solid #5179A9 !important;
+    font-size: 8pt; 
+    font-weight: normal;
+    text-align: left;
+    vertical-align: bottom;
+}	
+/* caption */
+tr.naep-rteTableFooterRow-NCES-7-BlueBorderNoLeftRightBorder,
+.naep-rteTable-NCES-7-BlueBorderNoLeftRightBorder caption {	
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 0;
+}
+/* ===== END: NCES Table - Blue Border No Left Right Border =============================== */
+
+/* ===== END: NCES TABLE STYLES =========================================================== */
+/* ======================================================================================== */
+
+/* ===================================================================================== */
+/* ===== SharePoint default ribbon styles ============================================== */
+/* ===================================================================================== */
+
+/* Positions Styles */
+.naep-rtePosition-1 {
+	-ms-name:"Left";
+    float: left;
+}
+.naep-rtePosition-2 {
+	-ms-name:"Right";
+    float: right;
+}
+.naep-rtePosition-3 {
+	-ms-name:"Top";
+    vertical-align: text-top;
+}
+.naep-rtePosition-4 {
+	-ms-name:"Middle";
+    vertical-align: middle;
+}
+.naep-rtePosition-5 {
+	-ms-name:"Bottom";
+    vertical-align: text-bottom;
+}
+
+/* Image Styles */
+.naep-rteImage-0 {
+	-ms-name:"No border";
+}
+.naep-rteImage-1 {
+	-ms-name:"Thin line border";
+    background-color: #182738;
+    background-image: url("../sharepoint/images/tabtitlerowbottombg.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border: 1px solid #385B83;
+}
+.naep-rteImage-2 {
+	-ms-name:"Table border";
+    border-color: #D8D8D8 #BFBFBF #BFBFBF #D8D8D8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 2px;
+}
+.naep-rteImage-3 {
+	-ms-name:"Dark border";
+    background-attachment: fixed;
+    background-color: #182738;
+    background-image: url("../sharepoint/images/tabtitlerowbottombg.png");
+    background-position: left bottom;
+    background-repeat: repeat-x;
+    padding: 15px;
+}
+.naep-rteImage-4 {
+	-ms-name:"Light border";
+    background-color: #F2F2F2;
+    background-image: url("../sharepoint/images/selbg.png");
+    background-position: center top;
+    background-repeat: repeat-x;
+    border-color: #D8D8D8 #BFBFBF #BFBFBF #D8D8D8;
+    border-style: solid;
+    border-width: 1px;
+    padding: 6px 6px 33px;
+}
+/* ===================================================================================== */

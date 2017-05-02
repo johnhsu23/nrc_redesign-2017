@@ -1,0 +1,69 @@
+var matVar = "
+
+Overall;
+Gender;
+Race/Ethnicity (used for reporting trend);
+Race/Ethnicity (new student group variables in 2011);
+Parental Education Level;
+School Location;
+Students with Disabilities;
+English Language Learners;
+Race/ethnicioty - gender;
+Race/ethnicity - parental education level;
+Race/ethnicity - school location;
+Highest level mathematics course;
+Highest level mathematics course - gender;
+Highest level mathematics course - race/ethnicity;
+Highest level mathematics course - parental education level;
+Mathematics is a favorite subject;
+Mathematics is a favorite subject - gender;
+Mathematics is a favorite subject - race/ethnicity;
+Mathematics is a favorite subject - parental education level;
+Mathematics will help me in the future;
+Mathematics will help me in the future - gender;
+Mathematics will help me in the future - race/ethnicity;
+Mathematics will help me in the future - parental education level;
+Mathematics class work is engaging;
+Mathematics class work is engaging - gender;
+Mathematics class work is engaging - race/ethnicity;
+Mathematics class work is engaging - parental education level;"
+
+
+
+
+
+
+
+
+
+
+
+
+var redVar = "
+Overall;
+Gender;
+Race/Ethnicity (used for reporting trend);
+Race/Ethnicity (new student group variables in 2011);
+Parental Education Level;
+School Location;
+Students with Disabilities;
+English Language Learners;
+Race/ethnicioty - gender;
+Race/ethnicity - parental education level;
+Race/ethnicity - school location;
+When I read a book, I learn a lot;
+When I read a book, I learn a lot - gender;
+When I read a book, I learn a lot - race/ethnicity;
+When I read a book, I learn a lot - parental education level;
+Reading is enjoyable;
+Reading is enjoyable - gender;
+Reading is enjoyable - race/ethnicity;
+Reading is enjoyable - parental education level;
+Explain what was read in class;
+Explain what was read in class - gender;
+Explain what was read in class - race/ethnicity;
+Explain what was read in class - parental education level;
+Discuss reading interpretations;
+Discuss reading interpretations - gender;
+Discuss reading interpretations - race/ethnicity;
+Discuss reading interpretations - parental education level;"

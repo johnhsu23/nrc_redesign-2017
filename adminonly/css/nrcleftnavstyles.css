@@ -1,0 +1,159 @@
+.NRCMenuLevel0 {
+  background-color: #aaaaa8;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: .7em;
+  color: #000000;
+  padding-top: 4px;
+  padding-right: 6px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLevel1 {
+  background-image: url(/top_images/level1.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.69em;
+  color: #000000;
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+
+.NRCMenuLevel1bulleted {
+  background-image: url(/top_images/level1bulleted.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.69em;
+  color: #000000;
+  padding-top: 8px;
+  padding-right: 6px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLevel2 {
+  background-image: url(/top_images/level2.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.6em;
+  color: #000000;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 28px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLevel2bulleted {
+  background-image: url(/top_images/level2bulleted.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.6em;
+  color: #000000;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 28px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLevel3 {
+  background-image: url(/top_images/level3.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.6em;
+  color: #362f2d;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLevel3bulleted {
+  background-image: url(/top_images/level3bulleted.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  font-size: 0.6em;
+  color: #362f2d;
+  padding-top: 2px;
+  padding-right: 6px;
+  padding-bottom: 2px;
+  padding-left: 40px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuResources {
+  background-image: url(/top_images/level1special.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.69em;
+  color: #000000;
+  padding-top: 6px;
+  padding-right: 39px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+
+.NRCMenuResourcesbulleted {
+  background-image: url(/top_images/level1specialbulleted.jpg);
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 0.69em;
+  color: #000000;
+  padding-top: 6px;
+  padding-right: 6px;
+  padding-bottom: 6px;
+  padding-left: 16px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #FFFFFF;
+  display: block;
+}
+.NRCMenuLinkLevel0,.NRCMenuLinkLevel1, .NRCMenuLinkLevel2, .NRCMenuLinkLevel3 {
+}
+a.NRCMenuLinkLevel0:link, a.NRCMenuLinkLevel0:visited {
+  color: #000000; 
+  background-color: transparent;
+  text-decoration: none
+}
+a.NRCMenuLinkLevel1:link, a.NRCMenuLinkLevel1:visited, a.NRCMenuLinkLevel2:link, a.NRCMenuLinkLevel2:visited, a.NRCMenuLinkLevel3:link, a.NRCMenuLinkLevel3:visited {
+  color: #000000; 
+  background-color: transparent;
+  text-decoration: none
+}
+a.NRCMenuLinkLevel0:hover {
+  color: #990033;
+  background-color: transparent;
+  text-decoration: underline
+}
+a.NRCMenuLinkLevel1:hover, a.NRCMenuLinkLevel2:hover, a.NRCMenuLinkLevel3:hover {
+  color: #c00;
+  background-color: transparent;
+  text-decoration: underline
+}

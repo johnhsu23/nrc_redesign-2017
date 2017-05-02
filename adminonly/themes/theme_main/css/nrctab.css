@@ -1,0 +1,22 @@
+﻿/* === toptab naep theme === */
+.ajax__tab_nrc .ajax__tab_header 	{ font-family:arial,helvetica,clean,sans-serif; font-size:0.85em; color:#406718; background:url("../images/NRCtab/tab-line.gif") repeat-x bottom; padding-bottom:1px; }
+.ajax__tab_nrc .ajax__tab_outer 	{ margin:0 0px 0 0; height:22px; }
+.ajax__tab_nrc .ajax__tab_inner 	{ background-color:#e0f4c1; cursor:pointer; margin-right:10px; border:1px solid #b8d758; border-bottom:0; }
+.ajax__tab_nrc .ajax__tab_tab 		{ height:13px; padding:4px 10px; margin:0px; }
+.ajax__tab_nrc .ajax__tab_active .ajax__tab_outer { margin-right:-1px; }
+.ajax__tab_nrc .ajax__tab_active .ajax__tab_inner { background-color:#c2de9e; font-weight:bold; color:#000; cursor:default; }
+.ajax__tab_nrc .ajax__tab_disabled 	{ color:#A0A0A0; }
+.ajax__tab_nrc .ajax__tab_body:first-child 	{ font-family:arial,helvetica,clean,sans-serif; font-size:10pt; border:0; padding:0; background-color:#ffffff; }
+
+/* === lowertab naep theme === */
+.ajax__subtab_nrc .ajax__tab_header { font-family:arial,helvetica,clean,sans-serif; font-size:0.85em; font-weight:bold; background-color:#c2de9e }
+.ajax__subtab_nrc .ajax__tab_outer 	{ background:url("../images/NRCtab/sub-tab-divider.gif") no-repeat right 3px; height:21px;}
+.ajax__subtab_nrc .ajax__tab_inner 	{ background:none; padding-left:10px; border:0; cursor:pointer; }
+.ajax__subtab_nrc .ajax__tab_tab 	{ height:13px; padding:4px 2px; margin:0px; }
+.ajax__subtab_nrc .ajax__tab_active .ajax__tab_outer { background:url("../images/NRCtab/sub-tab-divider.gif") no-repeat right 3px; }
+.ajax__subtab_nrc .ajax__tab_active .ajax__tab_inner { color:#000;font-weight:bold;cursor:default; }
+.ajax__subtab_nrc .ajax__tab_disabled 				 { color: #A0A0A0;}
+.ajax__subtab_nrc .ajax__tab_body 	{ font-family:arial,helvetica,clean,sans-serif;font-size:10pt;border:0;padding:0;background-color:#fff; }
+
+/* === remove background (tab divider) from the last nested tab === */
+.ajax__subtab_nrc .ajax__tab_header > span:last-child .ajax__tab_outer { background:none; }

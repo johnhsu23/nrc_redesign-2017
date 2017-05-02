@@ -1,0 +1,28 @@
+.nrc-report .nrc-report-list-menu{
+    padding: 4px 8px;
+    color: white;
+    background: #c8920e;
+}
+
+.nrc-report .nrc-report-list-menu h5{
+    font-weight: bold;
+    margin-bottom:4px;
+}
+
+.nrc-report .nrc-report-list-menu a{
+    color: white;
+}
+
+.nrc-report table.report-card tr th{
+    text-align: left;
+}
+
+.nrc-report .arrow-button{
+    cursor: pointer;
+}
+
+.main-content{
+    background: #0a1971;
+}
+
+.nrc-report table{}

@@ -1,0 +1,140 @@
+﻿/* ===== This CSS is consolidation of existing styles ===========================================*/
+/* ===== 1. /Math_2009/inc/nrcmainstyles.css 		- combined with reset-fonts-grids.css   =====*/
+/* ===== 2. /Math_2009/inc/reset-fonts-grids.css    - cleaned up  							=====*/
+/* ===== 3. /Math_2009/inc/base.css       			- removed 								=====*/
+/* ==============================================================================================*/
+
+/* ===== BEGIN /Math_2009/inc/nrcmainstyles.css ==================================================================================== */
+html { color: #000; background: #fff;}
+body { font-family: Arial, Helvetica, sans-serif; font-size:0.8em; /*text-align: left;*/ }
+/*body { font: 13px/1.231 arial,helvetica,clean,sans-serif; *font-size:small;*font:x-small;}*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote{ margin: 0; padding: 0;}
+
+/* 
+h1 { font-family: "Arial Narrow", "Helvetica Narrow", Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1.5em; color: #B31F17; background-color: transparent; }
+h2 {  font-size: 1.0em; }*/
+h1 { padding: 2px 0 2px 0; font-size: 1.30em; font-family: Arial, Helvetica, sans-serif; font-weight: bold; margin: 0; color: #000000; }
+h2 { color: #8bb530; font-size: 1.10em; }
+h2, h3 { font-weight: bold; }
+h3 { font-size: 108%; /*0.9em;*/ }
+h4 { font-size: 1em; /*0.7em;*/ }
+
+
+
+hr.footerrule {  border: #333 1px solid; }
+div#homebanner { position:relative; }
+div#taglinediv { position: absolute; left:0; top:0; width: 750px; }
+table { border-spacing: 0; font-size: inherit; font: 100%;}
+td.contenttitleblock { background-color: #545454; width: 14px; }
+td.downloadreportstyle { cursor: pointer; text-align: right; }
+td.leftnavmenubgcolor {  background: #aaaaa8; }
+tr.topmenubarbgcolor {  background: #333; }
+a.downloadreportlink:link, a.downloadreportlink:visited { color: #00f; text-decoration: underline; }
+a.downloadreportlink:hover { color: #c00; text-decoration: underline; }
+a.footercontent:link, a.footercontent:visited { color: #000; background-color: transparent; text-decoration: underline; }
+a.footercontent:hover { color: #c00; background-color: transparent; text-decoration: underline; }
+a.glossary_link:link, a.glossary_link:visited { color: #060; background-color: transparent; text-decoration: underline; }
+a.glossary_link:hover { color: #060; background-color: transparent; text-decoration: underline; }
+a.taglinelink:link, a.taglinelink:visited { color: #E6E6E6; text-decoration: none; }
+a.taglinelink:hover { color: #E6E6E6; text-decoration: none; }
+a.topmenulink:link, a.topmenulink:visited { color: #fff; background-color: transparent; text-decoration: none; cursor: hand; }
+a.topmenulink:hover { color: #fff; background-color: transparent; text-decoration: underline; }
+a:link, a:visited { background-color: transparent; text-decoration: underline; }
+a:hover { color: #c00; background-color: transparent; text-decoration: underline; }
+
+fieldset, img { border: 0; }
+address, caption, cite, code, dfn, em, th, var { font-style: normal; font-weight: normal; }
+ol, ul, dl { margin-left: 2em; }
+ul li { list-style: disc outside none; /*none;*/ }
+caption { text-align: left; }
+caption, th { text-align: left; }
+q:before, q:after { content: ''; }
+abbr, acronym { border: 0; font-variant: normal; }
+sup { vertical-align: text-top; }
+sub { vertical-align: text-bottom; }
+input, textarea, select { font-family: inherit; font-size: inherit; font-weight: inherit; }
+/*input, textarea, select { *font-size:100%;}*/
+legend { color: #000; }
+pre, code, kbd, samp, tt { font-family: monospace; font-size:108%;line-height:100%; }
+
+.backtotoptext { font-size: 0.7em; }
+.bodycolor { background-color: #e6e6e5; }
+.charttitle { font-family: Arial, Helvetica, sans-serif; font-size: 1em; font-weight: bold; color: #000; background-color: transparent; }
+.contentblock { width: 605px; }
+.contentindent { padding-top: 0px; padding-left: 10px; padding-right: 6px; }
+.contenttitle { font-size: 1.0em; font-family: Arial, Helvetica, sans-serif; color: #000000; font-weight: bold; padding-top: 10px; padding-bottom: 10px; }
+.doPrintMe { display: none; }
+.footerblock { width: 760px; }
+.footercontent p { line-height: 2.0em; margin-top: 4px; display: block; font-family: Arial, Helvetica, sans-serif; font-size: 0.7em; }
+.indent30px { margin-left: 30px; }
+.normal { font-size: 0.80em; }
+.notes { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.8em; }
+.pagenav { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.6em; font-weight: bold; color: #999999; }
+.print_only { background-color: #fff; display: none; }
+.tablecaption { text-align: top; font-family: Arial, Helvetica, sans-serif;  font-size: 0.75em; font-weight: bold; color: #000; background-color: transparent; }
+.tablecellsmalltext { font-family: Arial, Helvetica, sans-serif; font-size: 0.85em; }
+.taglinetext { font-size: 15px; font-style: oblique; color: #E6E6E6; font-weight: bold; font-family: "Times New Roman", Times, serif; text-align: right; }
+.tinybodytext { font-family: Arial, Helvetica, sans-serif; font-size: 0.8em; }
+.topmenutext { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 0.6em; font-weight: bold; color: #fff; margin-top: 3px; margin-bottom: 4px; margin-left: 18px; margin-right: 16px; }
+
+/* =========================================
+   Styles added for rendering in eWebEditPro  
+   ========================================= */
+.nrc_only { background-color: #FF99CC; }
+.naep_only { background-color: #99CC33; }
+.print_only { background-color: #6df; display: block; }
+.tab1_only {}
+.tab2_only {}
+.tab3_only {}
+.tab4_only {}
+.tab5_only {}
+.tab6_only {}
+.tab7_only {}
+.tab8_only {}
+
+/* ==================================================
+   Styles for altering output when printing the page 
+   ================================================== */
+@media print { 
+ hr.footerrule 	{ border: #333 1px solid; width: 100%; margin-top: 24px; }
+ hr.headerrule 	{ border: #333 1px solid; width: 100%; }
+ .contentblock 	{ width: 100%; }
+ .contentindent { padding-top: 1px; padding-left: 0px; padding-right: 0px; } 
+ .dontPrintMe 	{ display: none; }
+ .doPrintMe 	{ display: block; }
+ .footerblock 	{ width: 100%; }
+ .print_only 	{ background-color: #fff; display: block; }
+}
+/* ===== END /Math_2009/inc/nrcmainstyles.css ================================================================================ */
+
+
+/* ===== BEGIN /Math_2009/inc/reset-fonts-grids.css ========================================================================== */
+.nrc_bodyContainer 			{ margin: auto; text-align: left; width: 984px; min-width: 750px; }
+.nrc_header 				{ margin: auto; width: 984px; } 
+.nrc_body 					{ position:relative; width: 984px; margin: auto; }
+.nrc_pageContentContainer 	{ float: right; margin-left: -175px; width: 100%; }
+.nrc_pageContent 			{ margin-top: 13px; margin-left: 165px; /**/ }
+
+.nrc_leftColumn 			{ float: left; padding-right: 20px;	width: 58%; /*475px;*/ }
+.nrc_rightColumn 			{ float: right; padding-left: 20px; width: 36.5%; /*300px;*/ }
+.nrc_mainContent  			{ margin-bottom: 15px; }
+.nrc_bottomContent 			{ margin-top: 15px; width: 100%;}
+.nrc_bottomLeftContent 		{ float: left; position: relative; width: 30.9%; }
+.nrc_bottomCenterContent 	{ float: left; position: relative; width: 30.8%; margin: 0 30px; }
+.nrc_bottomRightContent 	{ float: left; position: relative; width: 30.9%; }
+
+.nrc_footer 				{ clear: both; }
+/* ===== END /Math_2009/inc/reset-fonts-grids.css ========================================================================== */
+
+
+/* ===== BEGIN /Math_2009/inc/base.css ========================================================================== */
+/* NONE */
+/* ===== END /Math_2009/inc/base.css ========================================================================== */
+
+
+/* === page updated info === */
+.pageupdated 	{ color: #4C4C4C; font-size:0.85em; font-family: tahoma; text-align: left; padding-top:20px; clear:both; }
+.pageupdated hr { border-top: 1px solid #C4C4C4; border-bottom:0; height:0px; padding-left: 8px; padding-right: 8px; }
+
+
+

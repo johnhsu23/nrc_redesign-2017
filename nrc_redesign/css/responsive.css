@@ -1,0 +1,74 @@
+.hamburger-icon {
+	width: 70px; 
+	display: none; 
+	margin-left: 40px;
+}
+
+.open-close-icon {
+	width:70px;
+	display:none;
+}
+
+.header__top .nav-item{
+	display: inline-block;
+}
+
+@media screen and (max-width: 1024px) {	
+	.header__top {
+		min-width: 550px;
+	}
+	.header__top .header__top__inner {
+		margin: 0px;
+		width: 100%;
+	}	
+	.header__top .header__top__inner .header__logo {
+		display: block;
+	}
+	.header__top nav{
+		position: static;		
+	}
+	.header__top .nav--utility {
+		top:0px;
+		left:0px;
+	}
+    .header__top .nav-item {
+		display: none;
+		float: none;
+		background: white;
+		font-size: 2em;
+		width: 100%;
+		min-width: 600px;
+    }
+	.header__top .nav-item .nav-heading {
+		display:inline-block;
+	}
+	.header__top .nav-menu {
+		width: 100%;
+		/*text-align: center;*/
+	}
+	.header__top .nav-menu .sub-nav {
+		position: static;
+	}
+	.header__top .nav-item:hover > .sub-nav {
+		display: none;
+	}
+	.hamburger-icon {
+		display: inline-block;
+		margin-left: 30px;
+	}	
+	.header__top .icon{
+		cursor: pointer;
+	}
+	.header__top ul.sub-nav-group{
+		display:block;
+	}
+	.header__top .sub-nav{
+		margin-left: 0px;
+	}
+	.header__top .nav-vertical-devider{
+		display: none;
+	}
+	#ets-portal td, #ets-portal tr, #ets-portal table, #ets-portal tbody{
+		display: block;
+	}
+}

@@ -1,0 +1,54 @@
+    <div align="right">
+      <form name="nde_selector" id="nde_selector">
+        <select name="subjectid" id="subjectid" onchange="changesubject(this);">
+          <option>Mathematics</option>
+          <option>Reading</option>
+        </select>
+        <br />
+        <select name="jurdid" id="jurdid" onchange="changejurd(this);">
+          <option>National</option>
+          <option>Pilot states</option>
+        </select>
+        <br />
+        <select name="varid" id="varid" onchange="changevari(this);">
+          <option>Overall</option>
+          <option>Gender</option>
+          <option>Race/Ethnicity (used for reporting trend)</option>
+          <option>Race/Ethnicity (new student group variable in 2011)</option>
+          <option>Parental Education</option>
+		  <option>School Location</option>
+          <option>Students with Disabilities</option>
+          <option>English Language Learners</option>
+		  <option>Race/ethnicioty - gender</option>
+		  <option>Race/ethnicity - parental education level</option>
+		  <option>Race/ethnicity - school location</option>
+		  <option>Highest level mathematics course</option>
+		  <option>Highest level mathematics course - gender</option>
+		  <option>Highest level mathematics course - race/ethnicity</option>
+		  <option>Highest level mathematics course - parental education level</option>
+		  <option>Mathematics is a favorite subject</option>
+		  <option>Mathematics is a favorite subject - gender</option>
+		  <option>Mathematics is a favorite subject - race/ethnicity</option>
+		  <option>Mathematics is a favorite subject - parental education level</option>
+		  <option>Mathematics will help me in the future</option>
+		  <option>Mathematics will help me in the future - gender</option>
+		  <option>Mathematics will help me in the future - race/ethnicity</option>
+		  <option>Mathematics will help me in the future - parental education level</option>
+		  <option>Mathematics class work is engaging</option>
+		  <option>Mathematics class work is engaging - gender</option>
+		  <option>Mathematics class work is engaging - race/ethnicity</option>
+		  <option>Mathematics class work is engaging - parental education level;</option>
+		 
+        </select>
+        <br />
+        <select name="statid" id="statid" onchange="changestat(this);">
+          <option>Average Scale Score</option>
+          <option>Percentages</option>
+          <option>Achievement Level (Cumulative)</option>
+          <option>Achievement Level (Discrete)</option>
+          <option>Percentiles</option>
+        </select>
+        <br />
+        <input value="show table" onclick="showtable();" type="button" />
+      </form>
+    </div>

@@ -1,0 +1,274 @@
+﻿
+
+.nrc_mainContent .NRC_xsmallsans {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.85em;
+}
+A.linkcontentbody:link {
+    color: #0000CC;
+}
+A.linkcontentbody:visited {
+    color: #663399;
+}
+A.linkfooter:link {
+    color: #000000;
+}
+A.linkfooter:visited {
+    color: #000000;
+}
+A.linkglossary:link {
+    color: #006600;
+}
+A.linkglossary:visited {
+    color: #006600;
+}
+.NRC_celltextsmall {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.65em;
+}
+.NRC_container {
+    width: 760px;
+}
+.NRC_contentbody {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 0.84em;
+}
+.NRC_contentbodyindented {
+    margin-left: 3em;
+}
+.NRC_contentbullets {
+    margin-bottom: 0.7em;
+}
+.NRC_contentheading1 {
+    color: #044877;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.NRC_contentheading2 {
+    color: #044877;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.NRC_contentheading3 {
+    color: #044877;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.NRC_contentindent {
+    margin-left: 32px;
+}
+.NRC_contentquestion {
+    color: #044877;
+    font-family: "Times New Roman",Times,serif;
+    font-size: 1em;
+    font-style: italic;
+    font-weight: bold;
+}
+.NRC_contenttable {
+    width: 615px;
+}
+.NRC_footer {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.65em;
+}
+.NRC_graphicheading {
+    color: #0C2E86;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+    font-size: 0.75em;
+    font-weight: bold;
+    text-align: left;
+}
+.NRC_homebutton {
+    left: 1px;
+    position: absolute;
+    top: 1px;
+}
+.NRC_itag {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.6em;
+}
+.NRC_itagboldblue {
+    color: #0C2E86;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.6em;
+    font-weight: bold;
+}
+.NRC_moreinfolink {
+    color: #0000CC;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.7em;
+    margin-left: 16px;
+}
+.NRC_NAEP_only {
+    background-color: #99CC33;
+}
+.NRC_NRC_only {
+    background-color: #FFFFFF;
+}
+.NRC_pageoftotal {
+    color: #435055;
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.NRC_PRINT_only {
+    background-color: #66DDFF;
+}
+.NRC_readfirstarea_report {
+    font-size: 1em;
+}
+.NRC_reportpagetitle {
+    color: #435055;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+.NRC_samplequestionfooter {
+    color: #FFFFFF;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 120px;
+    padding-bottom: 0.1em;
+    padding-right: 1em;
+    text-align: right;
+}
+.NRC_samplequestionfooterblue {
+    background-color: #7E93C7;
+}
+.NRC_samplequestionfootergreen {
+    background-color: #65A798;
+}
+.NRC_samplequestionhead {
+    color: #FFFFFF;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-right: 80px;
+    padding-bottom: 0.1em;
+    padding-left: 1em;
+}
+.NRC_samplequestionheadblue {
+    background-color: #00549E;
+}
+.NRC_samplequestionheadgreen {
+    background-color: #006F53;
+}
+.NRC_samplequestionleadtext {
+    font-family: "Times New Roman",Times,serif;
+    font-size: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+.NRC_samplequestiontext {
+    font-family: "Courier New",Courier,mono;
+    font-size: 0.8em;
+    margin-left: 3em;
+    margin-right: 4em;
+}
+.NRC_sampquesbkgd {
+    background-color: #FEE6CB;
+}
+.NRC_sampquesbluetext {
+    color: #044877;
+    font-weight: bold;
+}
+.NRC_sampquesgreentext {
+    color: #006F53;
+    font-weight: bold;
+}
+.NRC_tablefootnote {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.6em;
+}
+.NRC_xsmallsans {
+    font-family: Verdana,Arial,Helvetica,sans-serif;
+    font-size: 0.7em;
+}
+H6 {
+    color: #666666;
+    font-family: "times new roman",times,serif;
+    font-size: 8pt;
+    font-style: italic;
+}
+
+
+
+/* override */
+.nrc_mainContent body, 
+.nrc_mainContent div, 
+.nrc_mainContent dl, 
+.nrc_mainContent dt, 
+.nrc_mainContent dd, 
+.nrc_mainContent ul, 
+.nrc_mainContent ol, 
+.nrc_mainContent li, 
+.nrc_mainContent h1, 
+.nrc_mainContent 
+.nrc_mainContent h2, 
+.nrc_mainContent h3, 
+.nrc_mainContent h4, 
+.nrc_mainContent h5, 
+.nrc_mainContent h6, 
+.nrc_mainContent pre, 
+.nrc_mainContent code, 
+.nrc_mainContent form, 
+.nrc_mainContent fieldset, 
+.nrc_mainContent legend, 
+.nrc_mainContent input, 
+.nrc_mainContent textarea, 
+.nrc_mainContent p, 
+.nrc_mainContent blockquote {
+    margin: 1.45em 0;  /*13px 0;*/
+    padding: 0;
+    font-size:1em;
+}
+.nrc_mainContent .glossary_header {
+	color: #044877;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+/*
+.nrc_mainContent h2 {
+	color: #044877;
+    font-family: "Arial Narrow","Helvetica Narrow",Arial,Helvetica,sans-serif;
+    font-size: 1.4em;
+    font-weight: bold;
+}*/
+.NRC_contentbody {
+    font-family: Arial,Helvetica,sans-serif;
+    /*font-size: 0.84em;*/
+}
+hr {
+    color: #666;
+    height: 1px;    
+    margin: 2em 0;
+}
+.nrc_mainContent a.inkcontentbody:link{
+	color: #0000CC;
+}
+
+.nrc_mainContent a.glossary_link:link {
+	color: #006600;
+}
+
+.nrc_mainContent a.internal_glossary_link:link {
+	color: #006600;
+	text-decoration: underline;
+	background-color: transparent;	
+}
+
+.nrc_mainContent LI
+{
+	margin-top : 0px;
+	margin-bottom : 0px;
+}
+.nrc_mainContent UL
+{
+	margin-left : 2em;
+}

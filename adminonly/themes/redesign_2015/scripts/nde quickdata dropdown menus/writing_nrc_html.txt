@@ -1,0 +1,40 @@
+<div style="align: right;">
+Use the tool below and select the grade and student action to see the complete data with standard errors.<br />
+<form name="nde_selector" id="nde_selector">
+
+<select name="gradeid" id="gradeid" onchange="changegrade(this);">
+	<option>Select grade</option>
+	<option>Grade 8</option>
+	<option>Grade 12</option>
+</select>
+<br>
+<select name="variid" id="variid" onchange="changevari(this);">
+	<option>Select student action</option>
+	<option>Backspace</option>
+	<option>Bold</option>
+	<option>Collapse prompt</option>
+	<option>Collapse response</option>
+	<option>Copy</option>
+	<option>Cut</option>
+	<option>Delete</option>
+	<option>Expand prompt</option>
+	<option>Expand response</option>
+	<option>Highlight</option>
+    <option>Indent</option>
+    <option>Italics</option>
+    <option>Outdent</option>
+    <option>Paste</option>
+    <option>Scroll</option>
+    <option>Spell-check (icon)</option>
+    <option>Spell-check (right click)</option>
+    <option>Spell-check corrections accepted</option>
+    <option>Text-to-speech</option>
+    <option>Thesaurus</option>
+    <option>Thesaurus replacement</option>
+    <option>Underscore</option>
+    <option>Zoom</option>
+</select>
+<br>
+<input value="show table" onclick="showtable();" type="button">
+</form>
+</div>
