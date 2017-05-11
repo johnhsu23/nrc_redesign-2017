@@ -1,28 +1,35 @@
-.nrc-report .nrc-report-list-menu{
-    padding: 4px 8px;
-    color: white;
-    background: #c8920e;
-}
-
-.nrc-report .nrc-report-list-menu h5{
-    font-weight: bold;
-    margin-bottom:4px;
-}
-
-.nrc-report .nrc-report-list-menu a{
-    color: white;
-}
-
-.nrc-report table.report-card tr th{
-    text-align: left;
-}
-
-.nrc-report .arrow-button{
+.nrc-report .menu-section div:hover{
+    color:white;
+    background: #c69214;
     cursor: pointer;
 }
 
-.main-content{
-    background: #0a1971;
+.nrc-report .menu-section div.selected{
+    color:white;
+    background: #c69214;
+    cursor: pointer;
 }
 
-.nrc-report table{}
+.nrc-report div.menu-section-header{
+    color:#4c4c4c;
+    background: #d6ad4a;
+    cursor: pointer;
+}
+
+.nrc-report .select-options input{
+    background:#c69214;
+    color:white;
+}
+
+.nrc-report .select-options input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+.nrc-report .select-options input::-moz-placeholder { /* Firefox 19+ */
+  color: pink;
+}
+.nrc-report .select-options input:-ms-input-placeholder { /* IE 10+ */
+  color: pink;
+}
+.nrc-report .select-options input:-moz-placeholder { /* Firefox 18- */
+  color: pink;
+} 
