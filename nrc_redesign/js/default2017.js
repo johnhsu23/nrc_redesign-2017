@@ -122,6 +122,8 @@ $(document).ready(function(){
       $(".nrc-report-list-menu").css("position", "absolute").css("left", $(this).offsetParent().position().left + $(this).position().left + 2).css("top", $("table.report-card").position().top + $(this).position().top + $(this).height() - 1);
       return false;
     })
+    
+    $(".select-options.jurisdiction-new").autocompleteDropdown();    
 
     var blockBodyClick = false;
     $("body").on("click", function(){
@@ -190,13 +192,13 @@ $(document).ready(function(){
       });
     })
 
-    $(".menu-section-header").on("click", function(){
+    $(".jurisdiction .menu-section-header").on("click", function(){
       var sectionName = GetMenuSection($(this));
       $(".menu-section." + sectionName).toggle();
       return false;
     })
 
-    $(".menu-section div").on("click", function(){
+    $(".menu-section div").on("click", function(){      
       var section = GetMenuSection($(this).parent().parent());      
       $(".nrc-report-textbox." + section).val($(this).text());
       $(".dropdown-menu." + section).hide();
@@ -273,7 +275,7 @@ $(document).ready(function(){
       for(var i = 0; i < menuItems.length; i++){
         var $menuItem = $(menuItems[i]);
         if($menuItem.hasClass("selected")) return $menuItem.text();
-      }      
+      }
     }
   } //loadEvents
 
@@ -290,7 +292,7 @@ $(document).ready(function(){
   //$(".report-card td").css("text-align", "center");
 
   function makeChart(data){
-    d3.select(".report-card").selectAll("td").data(data).html(function(d){      
+    d3.select("table.report-card").selectAll("td").data(data).html(function(d){      
       if(d == 0) { return "<img src='/subject/dashboard/gapsNoData.png'>" }
       var score = d * 360 / 100;
       var color = "#000000";
@@ -319,7 +321,7 @@ $(document).ready(function(){
     var end = polarToCartesian(x, y, radius, startAngle);
         var largeArcFlag = endAngle - startAngle <= 180 ? "0" : "1";
         var d = [
-            "M", start.x, start.y, 
+            "M", start.x, start.y,
             "A", radius, radius, 0, largeArcFlag, 0, end.x, end.y
         ].join(" ");
         return d;       
