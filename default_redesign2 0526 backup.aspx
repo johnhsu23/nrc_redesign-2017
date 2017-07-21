@@ -25,6 +25,7 @@ NAEP Report Cards - Home
 <link rel="stylesheet" type="text/css" href="nrc_redesign/css/styles.css">
 
 <link rel="icon" type="image/png" href="nrc_redesign/images/favicon.png">
+
 </asp:Content>
 
 <asp:Content ID="PlaceHolderMain" runat="server" ContentPlaceHolderID="PlaceHolderMain">
@@ -33,39 +34,38 @@ NAEP Report Cards - Home
    <article class="row row-eq-height">
       <section id="pageContent" class="col-md-8 nrc_pageContent">
          <!-- Begin Shared Icons -->
-         <div class="share-it">
-            <div class="chart__share">
-               <a href="#">Click to expand</a>
-               <div class="share__drawer" style="display: block;">
-                  <a href="#" class="share__facebook">Facebook</a>
-                  <a href="#" class="share__twitter">Twitter</a>
-                  <a class="share__email" href="#">Email</a>
-                  <a class="share__link" href="#">Permalink</a>
-                  <div class="share__permalink-popup">
-                     <input type="text">
-                  </div>
+         <div class="chart__share">
+            <a href="#">Click to expand</a>
+            <div class="share__drawer" style="display: block;">
+               <a href="#" class="share__facebook">Facebook</a>
+               <a href="#" class="share__twitter">Twitter</a>
+               <a class="share__email" href="#">Email</a>
+               <a class="share__link" href="#">Permalink</a>
+               <div class="share__permalink-popup">
+                  <input type="text">
                </div>
             </div>
-         </div>
+         </div> 
          <!-- End Shared Icons --> 
          <h2>​HOW DID U.S. STUDENTS DO ON THE MOST RECENT ASSESSMENTS?</h2> 
-         <p class="intro">Select a <span class="emphasize">jurisdiction</span> and a <span class="emphasize">result</span> to see how students performed on the latest NAEP assessments.</p>
-         <p class="intro">Click on the <img src="nrc_redesign/images/arrow-pulldown-example.png" alt="Down Arrow Image" /> to see the most recent reports in each subject</p>
+         <p>Select a <span class="emphasize">jurisdiction</span> and a <span class="emphasize">result</span> to see how students performedon the latest NAEP assessments.</p>
+         <p>Click on the <img src="nrc_redesign/images/arrow-pulldown-example.png" alt="Down Arrow Image" /> to see the most recent reports in each subject</p>
          <div class="comparison">
+            
             <div class="select-options jurisdiction-new" role="combobox application" aria-expanded="false" aria-disabled="false" aria-required="false">
-               <label>SELECT JURISDICTION:</label>
-               <div role="textbox" tabindex="-1" aria-readonly="true" class="select">Public and nonpublic schools</div>
+               <label>select jurisdiction:</label>
+               <div role="textbox" tabindex="-1" aria-readonly="true" class="select">All public/nonpublic schools</div>
                <div role="listbox" tabindex="-1" aria-multiselectable="false" class="dropdown-menu scrollable-menu">
                   <span class="fa fa-search"></span>
                   <input class="search" />
                   <div class="menu-section-header national">National</div>
                   <div class="menu-section national">
-                     <div>Public and nonpublic schools</div>
+                     <div>All public and nonpublic schools</div>
                      <div>Public schools only</div>
                      <div>Private schools only</div>
                      <div>Large city public schools</div>
                   </div>
-                  <div class="menu-section-header states">States</div>
+                  <div class="menu-section-header states">State</div>
                   <div class="menu-section states">
                      <div>Alabama</div>
                      <div>Alaska</div>
@@ -120,24 +120,24 @@ NAEP Report Cards - Home
                   </div>
                   <div class="menu-section-header district">District</div>
                   <div class="menu-section district">
-                     <!--div>Large City</div-->
+                     <div>Large City</div>
                      <div>Albuquerque</div>
-                     <div>Atlanta</div>
+                     <div>Atlantay</div>
                      <div>Austin</div>
                      <div>Baltimore City</div>
                      <div>Boston</div>
                      <div>Charlotte-Mecklenburg</div>
                      <div>Chicago</div>
-                     <!--div>Clark County (NV)</div-->
+                     <div>Clark County (NV)</div>
                      <div>Cleveland</div>
                      <div>Dallas</div>
-                     <!--div>Denver</div-->
+                     <div>Denver</div>
                      <div>Detroit</div>
                      <div>District of Columbia (DCPS)</div>
                      <div>Duval County (FL)</div>
-                     <!--div>Fort Worth</div-->
+                     <div>Fort Worth</div>
                      <div>Fresno</div>
-                     <!--div>Guilford County (NC)</div-->
+                     <div>Guilford County (NC)</div>
                      <div>Hillsborough County (FL)</div>
                      <div>Houston</div>
                      <div>Jefferson County (KY)</div>
@@ -147,116 +147,103 @@ NAEP Report Cards - Home
                      <div>New York City</div>
                      <div>Philadelphia</div>
                      <div>San Diego</div>
-                     <!--div>Shelby County (TN)</div-->
+                     <div>Shelby County (TN)</div>
                   </div>
                </div>
             </div>
             <div class="select-options result-new" role="combobox application" aria-expanded="false" aria-disabled="false" aria-required="false">
                <label>select result:</label>
                <div role="textbox" tabindex="-1" aria-readonly="true" class="select">At or above Proficient</div>
-               <div role="listbox" tabindex="-1" aria-multiselectable="false" class="dropdown-menu scrollable-menu">                  
+               <div role="listbox" tabindex="-1" aria-multiselectable="false" class="dropdown-menu scrollable-menu">
                   <div class="menu-section-header achievement-level">Achievement Level</div>
                   <div class="menu-section achievement-level">
                      <div>At Advanced</div>
                      <div>At or above Proficient</div>
                      <div>At or above Basic</div>
                   </div>
-
-                  <div class="menu-section-header average-scores">Changes in Average Scores</div>
-                  <div class="menu-section states average-scores">
+                  <div class="menu-section-header trend">Changes in Average Scores</div>
+                  <div class="menu-section trend">
                      <div>Compared to base year</div>
                      <div>Compared to most recent year</div>
                   </div>
-                  
                </div>
             </div>
          </div><!-- end comparison div -->
-         <div class="table-container">
-            <div class="cover">
-               <div class="loader"></div>
-            </div>
-            <table class="nrc-rteTable-default report-card" width="100%" cellspacing="0">
-               <thead>
-                  <tr>
-                     <th></th>
-                     <th colspan="3"><span>Percentage At or Above Proficient</span></th>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​</th>
-                     <th class="nrc-rteTable-default">Grade 4​</th>
-                     <th class="nrc-rteTable-default">​Grade 8</th>
-                     <th class="nrc-rteTable-default">​Grade 12</th>
-                  </tr>
-               </thead>
-               <tbody>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Arts</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Civics</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" /> Economics</th>
-                     <td>​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Geography</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" /><span id="MathLink">​Mathematics</span></th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr id="MathRow" style="display&#58;none;">
-                     <th class="nrc-rteTable-default" colspan="4">
-                        <div id="MathMenu" style="display&#58;none;">​National State TUDA</div>
-                     </th>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Reading</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button science" alt="" />Science</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button tel" alt="" />Technology &amp; Engineering Literacy</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />U.S. History</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-                  <tr>
-                     <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button writing" alt="" />Writing</th>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                     <td class="nrc-rteTable-default">​</td>
-                  </tr>
-               </tbody>
-            </table>
-         </div><!-- end table-container div -->
+         <table class="nrc-rteTable-default report-card" width="100%" cellspacing="0">
+            <thead>
+               <tr>
+                  <th></th>
+                  <th colspan="3"><span>Percentage At or Above Proficient</span></th>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​</th>
+                  <th class="nrc-rteTable-default">Grade 4​</th>
+                  <th class="nrc-rteTable-default">​Grade 8</th>
+                  <th class="nrc-rteTable-default">​Grade 12</th>
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Civics</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" /> Economics</th>
+                  <td>​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Geography</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" /><span id="MathLink">​Mathematics</span></th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr id="MathRow" style="display&#58;none;">
+                  <th class="nrc-rteTable-default" colspan="4">
+                     <div id="MathMenu" style="display&#58;none;">​National State TUDA</div>
+                  </th>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />Reading</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button science" alt="" />Science</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button tel" alt="" />Technology &amp; Engineering Literacy</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default">​<img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button civics" alt="" />U.S. History</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+               <tr>
+                  <th class="nrc-rteTable-default"><img src="https&#58;//nrcpreview3.naepims.org/subject/portal/arrow_button.png" class="arrow-button writing" alt="" />Writing</th>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+                  <td class="nrc-rteTable-default">​</td>
+               </tr>
+            </tbody>
+         </table>
          <ul class="color-legend"><strong>KEY&#58; </strong>
             <li><span class="opt-1"></span>10 - 19%</li>
             <li><span class="opt-2"></span>20 - 29%</li>
@@ -265,13 +252,6 @@ NAEP Report Cards - Home
          </ul>
          <p class="note">Note&#58; Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Phasellus eget nisi augue</p> 
          <div class="nrc-report-list-menu">
-             <div class="arts">
-               <h5>Most Recent Result in Arts</h5>
-               <ul>
-                  <li><a href="arts_2016/#/music/overall-results">National Music 2016 (grade 8)</a></li>
-                  <li><a href="arts_2016/#/visual-arts/overall-results">National Visual Arts 2016 (grade 8)</a></li>
-               </ul>
-            </div>
             <div class="civics">
                <h5>Most Recent Result in Civics</h5>
                <ul>
@@ -337,32 +317,31 @@ NAEP Report Cards - Home
          </div>
          <div class="row next-section">
             <div class="col-md-12">
-               <img src="shared/nces naep/adminonly/nces_naep/images/report-img.png" alt="Newest Report Cover Image" class="cover-img" />
+               <img src="https&#58;//nrcpreview3.naepims.org/shared/nces%20naep/adminonly/nces_naep/images/report-img.png" alt="Newest Report Cover Image" class="cover-img" />
                <h4>NEWEST REPORT</h4>
                <p>2016 Arts Results - Grades 4, 8, and 12</p>
-               <a href="arts_2016"><button class="feature-btn">Explore the 2016 Arts Report</button></a>
+               <button class="feature-btn">Explore the 2016 Arts Report</button>
                <hr />
                <h4>2016 ARTS TOP STORIES</h4>
                <div class="top-stories">
                   <figure>
-                     <img src="https://nrcpreview3.naepims.org/shared/nces naep/adminonly/nces_naep/images/common/mini-trend-chart.png" alt="trend chart thumbnail" />
-                     <figcaption>Hispanic eighth graders improve in <a href="arts_2016/#/music/score-gaps">music</a>.</figcaption>
+                     <img src="https&#58;//nrcpreview3.naepims.org/shared/nces%20naep/adminonly/nces_naep/images/common/mini-bar-chart.png" alt="missing" width="125" />
+                     <figcaption>Hispanic eight graders improve in <a href="arts_2016/#/music/overall-results">music</a>.</figcaption>
                   </figure>
                   <figure>
-                     <img src="shared/nces naep/adminonly/nces_naep/images/common/points-of-interest-chart.png" alt="points of opportunity thumbnail" />
-                     <figcaption>Access and opportunities in <a href="arts_2016/#/music/opportunities-and-access">music</a> and <a href="arts_2016/#/visual-arts/opportunities-and-access">visual arts</a> vary by gender, income, and region</figcaption>
+                     <img src="https&#58;//nrcpreview3.naepims.org/shared/nces%20naep/adminonly/nces_naep/images/common/mini-trend-chart.png" alt="missing" width="125" />
+                     <figcaption>Access and opportunities in <a href="arts_2016/#/music/overall-results">music</a> and <a href="#">visual arts</a> vary by gender, income, and region</figcaption>
                   </figure>
                   <figure>
-                     <img src="shared/nces naep/adminonly/nces_naep/images/common/mini-bar-vertical.png" alt="vertical bar chart thumbnail" />
-                     <figcaption>See and try selected questions from the <a href="arts_2016/#/music/sample-questions">music</a> and <a href="arts_2016/#/visual-arts/sample-questions">visual arts</a> of the assessment.</figcaption> 
+                     <img src="https&#58;//nrcpreview3.naepims.org/shared/nces%20naep/adminonly/nces_naep/images/common/mini-trend-chart.png" alt="missing" width="125" />
+                     <figcaption>See and try selected questions from the <a href="arts_2016/#/music/overall-results">music</a> and <a href="#">visual arts</a> of the assessment.</figcaption> 
                   </figure>
                </div>
                <hr />
-               <h4>THE STORY BEHIND THE NAEP ARTS ASSESSMENT</h4>
-               <iframe width="280" height="157" src="https://www.youtube.com/embed/UdMkneYm2cU" frameborder="0" allowfullscreen></iframe>
-               <!--video width="100%" height="200">
+               <h4>WATCH THE SCIENCE RELEASE</h4>
+               <video width="100%" height="200">
                   <source src="/default_redesign.aspx" />
-               </video-->
+               </video>
             </div>
          </div>
          <div class="row next-section">
@@ -370,12 +349,12 @@ NAEP Report Cards - Home
                <h4>COMING SOON</h4>
                <div class="top-stories">
                   <figure>
-                     <img src="/shared/nces naep/adminonly/nces_naep/images/common/thumbnail-1.jpg" alt="magazine thumbnail" />
-                     <figcaption><span>2015 Student Questionaire Results</span> Find out about sutdents' learning experience in mathematics, reading, and science in this NAEP special report</figcaption>
+                     <img src="/shared/nces naep/adminonly/nces_naep/images/common/thumbnail-1.jpg" alt="magazine thumbnail" width="80" height="100" />
+                     <figcaption><span>National Scores by Student Group</span> Sed dui dui, luctus quis bibendum</figcaption>
                   </figure>
                   <figure>
                      <img src="/shared/nces naep/adminonly/nces_naep/images/common/thumbnail-2.jpg" alt="magazine thumbnail" />
-                     <figcaption><span>2017 NAEP Mathematics and Reading results for grades 4 and 8: Available in early 2018</span></figcaption>
+                     <figcaption><span>State Score Comparisons</span> Sed dui dui, luctus quis bibendum</figcaption>
                   </figure>
                </div>
             </div>

@@ -1,7 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" %>
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head id="Head1" runat="server">
     <title>
@@ -16,10 +17,10 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <%-- CSS --%>
-	<!--link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3.min.css"/>
     <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap2-custom.min.css"/>
     <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/sp-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3-custom.min.css"/-->
+    <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3-custom.min.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/header/header.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_redesign_2015.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_redesign_2015_small.css" media="(max-width: 1023px)"/>
@@ -27,10 +28,7 @@
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_Redesign_UserSelectableStyle.css"/>	
 	 	
     <%-- JavaScript --%>
-	<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+	<script src="/Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="/Scripts/jquery.cookie.js" type="text/javascript"></script>
 	<script src="/shared/shared/Bootstrap3/js/bootstrap3.min.js" type="text/javascript"></script>
 	<script src="/shared/shared/Bootstrap3/js/bootstrap3-custom.js" type="text/javascript"></script>
@@ -43,7 +41,22 @@
 	<script src="/adminonly/themes/redesign_2015/header/header.js" type="text/javascript"></script>
 	<script src="/adminonly/themes/redesign_2015/scripts/NRC_redesign_2015.js" type="text/javascript"></script>
 	<script src="/adminonly/themes/redesign_2015/scripts/nde_dropdown_selector.js" type="text/javascript"></script>
-	<script src="/adminonly/scripts/urlDecode.js" type="text/javascript"></script>	
+	<script src="/adminonly/scripts/urlDecode.js" type="text/javascript"></script>
+
+			
+	<%-- fancybox2 --%>
+	<link rel="stylesheet" href="/shared/shared/fancybox2/source/jquery.fancybox.css?v=2.0.6" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/shared/shared/fancybox2/source/helpers/jquery.fancybox-buttons.css?v=1.0.2" type="text/css" media="screen" />
+	<link rel="stylesheet" href="/shared/shared/fancybox2/source/helpers/jquery.fancybox-thumbs.css?v=2.0.6" type="text/css" media="screen" />
+	<script type="text/javascript" src="/shared/shared/fancybox2/lib/jquery-1.7.2.min.js"></script>	
+	<script type="text/javascript" src="/shared/shared/fancybox2/source/jquery.fancybox.js?v=2.0.6"></script>
+	<script type="text/javascript" src="/shared/shared/fancybox2/lib/jquery.easing.1.3.js"></script>	
+	<script type="text/javascript" src="/shared/shared/fancybox2/source/helpers/jquery.fancybox-buttons.js?v=1.0.2"></script>
+	<script type="text/javascript" src="/shared/shared/fancybox2/source/helpers/jquery.fancybox-media.js?v=1.0.0"></script>	
+	<script type="text/javascript" src="/shared/shared/fancybox2/source/helpers/jquery.fancybox-thumbs.js?v=2.0.6"></script>
+	<script type="text/javascript" src="/shared/shared/fancybox2/naepfancybox.js"></script>
+	<script type="text/javascript" src="/adminonly/scripts/GlossaryMigratedPageFix.js"></script>
+	<script type="text/javascript" src="/adminonly/themes/theme_main/scripts/nrcmain.js"></script>		
 
     <%-- swfobject --%>
     <script src="/shared/shared/js/swfobject.js" type="text/javascript"></script>
@@ -78,18 +91,6 @@
     </asp:ContentPlaceHolder>
     <asp:ContentPlaceHolder runat="server" ID="PlaceHolderPageHead">
     </asp:ContentPlaceHolder>
-	<style type = "text/css">
-* {
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform, -webkit-transform;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear; }
-
-	</style>
 </head>
 
 <body>
@@ -119,7 +120,7 @@
 							<div id="tab1" class="tab tab1 active">
 								<div class="nde-data-filter-content">
 									<div class="nde-data-filter-wrapper">
-										Download data summarizing<br/>
+										Download data summarizing:<br/>							        		
 										<ul>
 											<li>participation rates</li>
 											<li>inclusion rates and other information about students with disabilities (SD) and English language learners (ELL)</li>
@@ -128,7 +129,6 @@
 											<label for="subject" class="screen-reader-only">Subject</label>
 											<span class="select-default" title="MATHNS"></span>
 											<select id="downloadsubject" name="subject" class="dropdown">
-												<option value="ART">Arts</option>
 												<option value="CIV">Civics</option>
 												<option value="GEO">Geography</option>
 												<option value="MATHNS" class="default-text">Mathematics (National & State)</option>
@@ -137,6 +137,7 @@
 												<option value="READNS">Reading (National & State)</option>
 												<option value="READTUDA">Reading (TUDA)</option>
 												<option value="READ12">Reading (Grade 12)</option>
+												<option value="SCI">Science</option>
 												<option value="TEL">Technology & Engineering Literacy</option>
 												<option value="HIS">U.S. History</option>
 												<option value="VOC">Vocabulary</option>
@@ -197,8 +198,8 @@
 												<select id="statid" name="statistic" class="dropdown">
 													<option value="1" class="default-text">Average Score</option>
 													<option value="2">Percentages</option>
-													<option value="3">Achievement Level</option>
-													<option value="4">Percentiles</option>
+													<option value="3LC_BB,ALC_AB,ALC_AP,ALC_AD">Achievement Level</option>
+													<option value="PC_P1,PC_P2,PC_P5,PC_P7,PC_P9">Percentiles</option>
 												</select>
 											</div>
 											<div class="nde-data-filter variable">

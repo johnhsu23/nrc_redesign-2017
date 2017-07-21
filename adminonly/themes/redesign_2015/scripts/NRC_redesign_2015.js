@@ -87,7 +87,8 @@ function FooterDropdown()
 /*-----Begin NRC Redesign Icons -----*/
 function bindShareIcon() {
 	jQuery('.chart__share > a').click(function(){
-		jQuery('.share__drawer').toggle();
+		jQuery('.share__drawer').slideToggle();
+		return false;
 	});
 	jQuery('.share__link').click(function(){
 		shareLink(); return false;

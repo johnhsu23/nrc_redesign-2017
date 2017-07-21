@@ -1,7 +1,8 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" %>
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
 
 <head id="Head1" runat="server">
     <title>
@@ -16,21 +17,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800|Montserrat:400,700" rel="stylesheet" type="text/css">
 
     <%-- CSS --%>
-	<!--link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3.min.css"/>
+	<link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3.min.css"/>
     <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap2-custom.min.css"/>
     <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/sp-responsive.css"/>
-    <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3-custom.min.css"/-->
+    <link rel="stylesheet" type="text/css" href="/shared/shared/Bootstrap3/css/bootstrap3-custom.min.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/header/header.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_redesign_2015.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_redesign_2015_small.css" media="(max-width: 1023px)"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/theme_main/css/NRCUserSelectableStyle.css"/>
 	<link rel="stylesheet" type="text/css" href="/adminonly/themes/redesign_2015/css/NRC_Redesign_UserSelectableStyle.css"/>	
-	 	
+
     <%-- JavaScript --%>
-	<script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+	<script src="/Scripts/jquery.min.js" type="text/javascript"></script>
     <script src="/Scripts/jquery.cookie.js" type="text/javascript"></script>
 	<script src="/shared/shared/Bootstrap3/js/bootstrap3.min.js" type="text/javascript"></script>
 	<script src="/shared/shared/Bootstrap3/js/bootstrap3-custom.js" type="text/javascript"></script>
@@ -74,22 +72,22 @@
 	    });
 	</script>
 	
+	<%-- John and Nicole's stuff --%>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src = "nrc_redesign/js/underscore.js" ></script>
+	<script src = "nrc_redesign/js/backbone-min.js"></script>
+	<script src="nrc_redesign/js/autocomplete_dropdown.js"></script>
+	<script src="nrc_redesign/js/default2017.js"></script>
+	<script src="nrc_redesign/js/d3.v3.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="nrc_redesign/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="nrc_redesign/css/home.css">
+	<link rel="stylesheet" type="text/css" href="nrc_redesign/css/john.css">
+	<link rel="icon" type="image/png" href="images/favicon.png">
+
     <asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server">
     </asp:ContentPlaceHolder>
     <asp:ContentPlaceHolder runat="server" ID="PlaceHolderPageHead">
     </asp:ContentPlaceHolder>
-	<style type = "text/css">
-* {
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, -webkit-transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform;
-  transition-property: background-color, border-color, box-shadow, color, opacity, text-shadow, transform, -webkit-transform;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear; }
-
-	</style>
 </head>
 
 <body>
@@ -119,7 +117,7 @@
 							<div id="tab1" class="tab tab1 active">
 								<div class="nde-data-filter-content">
 									<div class="nde-data-filter-wrapper">
-										Download data summarizing<br/>
+										Download data summarizing:<br/>							        		
 										<ul>
 											<li>participation rates</li>
 											<li>inclusion rates and other information about students with disabilities (SD) and English language learners (ELL)</li>

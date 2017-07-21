@@ -60,7 +60,7 @@ NAEP Report Cards - Home
                   </div>
                   <!-- End Shared Icons -->
                <div class="intro">
-                  <h2>​HOW DID U.S. STUDENTS DO ON THE MOST RECENT ASSESSMENTS?</h2>
+                  <h2>​HOW DID U.S. STUDENTS PERFORM ON THE MOST RECENT ASSESSMENTS?</h2>
                   <p>Select a <span class="emphasize">jurisdiction</span> and a <span class="emphasize">result</span> to see how students performed on the latest NAEP assessments.<br/>
                      Click on the <button disabled class="options-menu"><i class="fa fa-caret-down" aria-hidden="true"></i></button> to see the most recent reports in each subject.</p>
                </div>
@@ -88,6 +88,8 @@ NAEP Report Cards - Home
                            <div>Colorado</div>
                            <div>Connecticut</div>
                            <div>Delaware</div>
+                           <div>District of Columbia</div>
+                           <div>DoDEA</div>
                            <div>Florida</div>
                            <div>Georgia</div>
                            <div>Hawaii</div>
@@ -131,25 +133,21 @@ NAEP Report Cards - Home
                            <div>Wisconsin</div>
                            <div>Wyoming</div>
                         </div>
-                        <div class="menu-section-header district">District</div>
+                        <div class="menu-section-header district">Districts</div>
                         <div class="menu-section district">
                            <div>Albuquerque</div>
                            <div>Atlanta</div>
                            <div>Austin</div>
                            <div>Baltimore City</div>
                            <div>Boston</div>
-                           <div>Charlotte-Mecklenburg</div>
+                           <div>Charlotte</div>
                            <div>Chicago</div>
-                           <div>Clark County (NV)</div>
                            <div>Cleveland</div>
                            <div>Dallas</div>
-                           <div>Denver</div>
                            <div>Detroit</div>
                            <div>District of Columbia (DCPS)</div>
                            <div>Duval County (FL)</div>
-                           <div>Fort Worth</div>
                            <div>Fresno</div>
-                           <div>Guilford County (NC)</div>
                            <div>Hillsborough County (FL)</div>
                            <div>Houston</div>
                            <div>Jefferson County (KY)</div>
@@ -159,7 +157,6 @@ NAEP Report Cards - Home
                            <div>New York City</div>
                            <div>Philadelphia</div>
                            <div>San Diego</div>
-                           <div>Shelby County (TN)</div>
                         </div>
                      </div>
                   </div>
@@ -202,7 +199,13 @@ NAEP Report Cards - Home
                      </thead>
                      <tbody>
                         <tr>
-                           <th class="nrc-rteTable-default">​<button class="options-menu"><i class="fa fa-caret-down" aria-hidden="true"></i></button><span>Arts</span></th>
+                           <th class="nrc-rteTable-default">​<button class="options-menu"><i class="fa fa-caret-down" aria-hidden="true"></i></button><span>Arts: Music</span></th>
+                           <td class="nrc-rteTable-default" aria-labeledby="g4 rt">​</td>
+                           <td class="nrc-rteTable-default" aria-labeledby="g8 rt">​</td>
+                           <td class="nrc-rteTable-default" aria-labeledby="g12 rt">​</td>
+                        </tr>
+                        <tr>
+                           <th class="nrc-rteTable-default">​<button class="options-menu"><i class="fa fa-caret-down" aria-hidden="true"></i></button><span>Arts: Visual Arts</span></th>
                            <td class="nrc-rteTable-default" aria-labeledby="g4 rt">​</td>
                            <td class="nrc-rteTable-default" aria-labeledby="g8 rt">​</td>
                            <td class="nrc-rteTable-default" aria-labeledby="g12 rt">​</td>
@@ -231,9 +234,9 @@ NAEP Report Cards - Home
                            <td class="nrc-rteTable-default" aria-labeledby="g8 rt">​</td>
                            <td class="nrc-rteTable-default" aria-labeledby="g12 rt">​</td>
                         </tr>
-                        <tr id="MathRow" style="display&#58;none;">
+                        <tr id="MathRow" style="display:none;">
                            <th class="nrc-rteTable-default" colspan="4">
-                              <div id="MathMenu" style="display&#58;none;">​<span>National State TUDA</span></div>
+                              <div id="MathMenu" style="display:none;">​<span>National State TUDA</span></div>
                            </th>
                         </tr>
                         <tr>
@@ -272,10 +275,16 @@ NAEP Report Cards - Home
                <div class="color-legend donuts">
                   <h6>KEY: </h6>
                   <ul>
-                     <li><span class="opt-1"></span>10 - 19%</li>
+                     <li>
+                        <svg viewBox="0 0 40 40" class="percentage opt-0">
+                           <path d="m5,16h47v20h-50z" />
+                           <!-- <path d="m5,16h30v20h-30z"/> -->
+                        </svg> DATA NOT AVAILABLE
+                     </li>
+                     <!-- <li><span class="opt-1"></span>10 - 19%</li>
                      <li><span class="opt-2"></span>20 - 29%</li>
                      <li><span class="opt-3"></span>30 - 39%</li>
-                     <li><span class="opt-4"></span>40 - 49%</li>
+                     <li><span class="opt-4"></span>40 - 49%</li> -->
                   </ul>
                </div>
                <div class="color-legend arrows">
@@ -295,16 +304,22 @@ NAEP Report Cards - Home
                         </svg> NO SIGNIFICANT CHANGE</li>
                      <li> 
                         <svg viewBox="0 0 40 40" class="percentage opt-0">
-                           <path d="m5,16h30v20h-30z"/>
+                           <path d="m5,16h47v20h-50z" />
+                           <!-- <path d="m5,16h30v20h-30z"/> -->
                         </svg> DATA NOT AVAILABLE</li>
                   </ul>
                </div>
-               <p class="note">NOTE: Year shown with percentages at or above an achievement level are for the most recent assessment in that grade and subject. Not all assessments are administered at all grades. For more information on each subject, click on the report of interest in the menu at​ the top of this page.  The 2011 NAEP writing assessment was based on the new framework and precludes the possibility of reporting trend results prior to 2011.​​​ Scale score ranges are noted in parentheses below each subject label when changes in average scores are shown. Base year indicates the first assessment year in grade and subject.</p> 
+               <p class="note">NOTE: DoDEA = Department of Defense Education Activity (overseas and domestic schools). Year shown with achievement-level results is the most recent assessment year in that grade and subject combination. Not all assessments are administered at all grades. For more information on each subject, click on the report of interest in the menu at​ the top of this page under the report tab.​​​ Base year indicates the first assessment year in that grade and subject combination.</p>
                <div class="nrc-report-list-menu">
-                   <div class="arts achievement-level">
-                     <h5>Most Recent Results in Arts</h5>
+                   <div class="music achievement-level">
+                     <h5>Most Recent Results in Arts: Music</h5>
                      <ul>
                         <li><a href="arts_2016/#/music/overall-results">National Music 2016 (grade 8)</a></li>
+                     </ul>
+                  </div>
+                  <div class="visual-arts achievement-level">
+                     <h5>Most Recent Results in Arts: Visual Arts</h5>
+                     <ul>
                         <li><a href="arts_2016/#/visual-arts/overall-results">National Visual Arts 2016 (grade 8)</a></li>
                      </ul>
                   </div>
@@ -335,8 +350,8 @@ NAEP Report Cards - Home
                         <li><a href="https://www.nationsreportcard.gov/reading_math_g12_2015/#mathematics/acl">National 2015 (grade 12)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/state/acl?grade=4">State 2015 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/state/acl?grade=8">State 2015 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/comparisons/XQ?grade=4">District 2015 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/comparisons/XQ?grade=8">District 2015 (grade 8)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/comparisons/XQ?grade=4">District 2015 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/comparisons/XQ?grade=8">District 2015 (grade 8)</a></li>
                      </ul>
                   </div>
                   <div class="reading achievement-level"><h5>Most Recent Results in Reading</h5>
@@ -346,28 +361,27 @@ NAEP Report Cards - Home
                         <li><a href="https://www.nationsreportcard.gov/reading_math_g12_2015/#reading/acl">National 2015 (grade 12)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/state/acl?grade=4">State 2015 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/state/acl?grade=8">State 2015 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/comparisons/XQ?grade=4">District 2015 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/comparisons/XQ?grade=8">District 2015 (grade 8)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/comparisons/XQ?grade=4">District 2015 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/comparisons/XQ?grade=8">District 2015 (grade 8)</a></li>
                      </ul>
                   </div>
                   <div class="science achievement-level"><h5>Most Recent Results in Science</h5>
                      <ul>
-                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl?grade=4">National (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl/chart_loc_1?grade=8">National (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl/chart_loc_1?grade=12">National (grade 12)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2015/#state/acl?grade=4">State (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2015/#state/acl/chart_loc_1?grade=8">State (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/g4_district.aspx?tab_id=tab2&subtab_id=Tab_1#tabsContainer">District 2009 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/g8_district.aspx?tab_id=tab2&subtab_id=Tab_1#tabsContainer">District 2009 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/ict_summary.aspx">Interactive Computer and Hands-On Tasks</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl?grade=4">National 2015 (grade 4)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl/chart_loc_1?grade=8">National 2015 (grade 8)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/science_2015/#acl/chart_loc_1?grade=12">National 2015 (grade 12)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/science_2015/#state/acl?grade=4">State 2015 (grade 4)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/science_2015/#state/acl/chart_loc_1?grade=8">State 2015 (grade 8)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/science_2009/g4_district.aspx?tab_id=tab2&subtab_id=Tab_1#tabsContainer">District 2009 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/science_2009/g8_district.aspx?tab_id=tab2&subtab_id=Tab_1#tabsContainer">District 2009 (grade 8)</a></li>
                      </ul>
                   </div>
-                  <div class="tel achievement-level"><h5>Most Recent Result&#160;in Technology &amp; Engineering Literacy</h5>
+                  <div class="tel achievement-level"><h5>Most Recent Results in Technology & Engineering Literacy</h5>
                      <ul>
                         <li><a href="https://www.nationsreportcard.gov/tel_2014/#results/overall">National 2014 (grade 8)</a></li>
                      </ul>
                   </div>
-                  <div class="history achievement-level"><h5>Most Recent Result&#160;in U.S. History</h5>
+                  <div class="history achievement-level"><h5>Most Recent Results in U.S. History</h5>
                      <ul>
                         <li><a href="https://www.nationsreportcard.gov/ushistory_2010/g4_nat.aspx?tab_id=tab2&subtab_id=Tab_1#chart">National 2010 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/hgc_2014/#history/achievement">National 2014 (grade 8)</a></li>
@@ -377,8 +391,9 @@ NAEP Report Cards - Home
                   <div class="writing achievement-level"><h5>Most Recent Results in Writing</h5>
                      <ul>
                         <li><a href="https://nces.ed.gov/nationsreportcard/pdf/main2002/2003529.pdf">National and State 2002 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/writing_2011/g8_national.aspx?tab_id=tab2&subtab_id=Tab_1#chart">National and State 2011 (grade 8)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/writing_2011/g8_national.aspx?tab_id=tab2&subtab_id=Tab_1#chart">National 2011 (grade 8)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/writing_2011/g12_national.aspx?tab_id=tab2&subtab_id=Tab_1#chart">National 2011 (grade 12)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/writing_2007/w0006.aspx">State 2007 (grade 8)</a></li>
                         <li><a href="http://nces.ed.gov/nationsreportcard/pdf/dst2002/2003530.pdf">District 2002 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/writing_2007/w0038.aspx">District 2007 (grade 8)</a></li>
                      </ul>
@@ -413,13 +428,13 @@ NAEP Report Cards - Home
                   </div>
                   <div class="math trend"><h5>Most Recent Trend Results in Mathematics</h5>
                      <ul>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/scores?grade=4">National 2015 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/scores?grade=8">National 2015 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_g12_2015/#mathematics/scores">National 2015 (grade 12)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/state/scores?grade=4">State 2015 (grade 4)</a></li>
+                        <li class="national"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/scores?grade=4">National 2015 (grade 4)</a></li>
+                        <li class="national"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/scores?grade=8">National 2015 (grade 8)</a></li>
+                        <li class="national"><a href="https://www.nationsreportcard.gov/reading_math_g12_2015/#mathematics/scores">National 2015 (grade 12)</a></li>
+                        <li class="national"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/state/scores?grade=4">State 2015 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/state/scores?grade=8">State 2015 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/trends/XQ?grade=4">District 2015 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/trends/XQ?grade=8">District 2015 (grade 8)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/trends/XQ?grade=4">District 2015 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#mathematics/district/trends/XQ?grade=8">District 2015 (grade 8)</a></li>
                      </ul>
                   </div>
                   <div class="reading trend"><h5>Most Recent Trend Results in Reading</h5>
@@ -429,8 +444,8 @@ NAEP Report Cards - Home
                         <li><a href="https://www.nationsreportcard.gov/reading_math_g12_2015/#reading/scores">National 2015 (grade 12)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/state/scores?grade=4">State 2015 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/state/scores?grade=8">State 2015 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/trends/XQ?grade=4">District 2015 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/trends/XQ?grade=8">District 2015 (grade 8)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/trends/XQ?grade=4">District 2015 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/reading_math_2015/#reading/district/trends/XQ?grade=8">District 2015 (grade 8)</a></li>
                      </ul>
                   </div>
                   <div class="science trend"><h5>Most Recent Trend Results in Science</h5>
@@ -440,9 +455,8 @@ NAEP Report Cards - Home
                         <li><a href="https://www.nationsreportcard.gov/science_2015/#scores/chart_loc_1?grade=12">National (grade 12)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/science_2015/#state/scores?grade=4">State (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/science_2015/#state/scores?grade=8">State (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/g4_district.aspx">District 2009 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/g8_district.aspx">District 2009 (grade 8)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/science_2009/ict_summary.aspx">Interactive Computer and Hands-On Tasks</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/science_2009/g4_district.aspx">District 2009 (grade 4)</a></li>
+                        <li class="tuda"><a href="https://www.nationsreportcard.gov/science_2009/g8_district.aspx">District 2009 (grade 8)</a></li>
                      </ul>
                   </div>
                   <div class="tel trend"><h5>Most Recent Trend Results in Technology &amp; Engineering Literacy</h5>
@@ -460,8 +474,9 @@ NAEP Report Cards - Home
                   <div class="writing trend"><h5>Most Recent Trend Results in Writing</h5>
                      <ul>
                         <li><a href="https://nces.ed.gov/nationsreportcard/pdf/main2002/2003529.pdf">National and State 2002 (grade 4)</a></li>
-                        <li><a href="https://www.nationsreportcard.gov/writing_2011/g8_national.aspx">National and State 2011 (grade 8)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/writing_2011/g8_national.aspx">National 2011 (grade 8)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/writing_2011/g12_national.aspx">National 2011 (grade 12)</a></li>
+                        <li><a href="https://www.nationsreportcard.gov/writing_2007/w0005.aspx">State 2007 (grade 8)</a></li>
                         <li><a href="http://nces.ed.gov/nationsreportcard/pdf/dst2002/2003530.pdf">District 2002 (grade 4)</a></li>
                         <li><a href="https://www.nationsreportcard.gov/writing_2007/w0037.aspx">District 2007 (grade 8)</a></li>
                      </ul>
@@ -522,10 +537,10 @@ NAEP Report Cards - Home
                      </div>
                      <div class="box-display">
                         <div class="box-img">
-                           <img src="/nrc_redesign/images/issue-2.png" />
+                           <img src="/nrc_redesign/images/math_pic.png" />
                         </div>
                         <div class="box-text">
-                           <h5 class="subtitle">2017 NAEP Mathematics and Reading results for grades 4 and 8: Available in early 2018</h5>
+                           <h5 class="subtitle">2017 NAEP mathematics and reading results for grades 4 and 8: Available in early 2018</h5>
                         </div>
                      </div>
                   </div>
@@ -576,8 +591,8 @@ NAEP Report Cards - Home
             </div>
             <div class="col-md-8">
                <h5>NATIONAL INDIAN EDUCATION STUDY (NIES): 2015</h5>
-               <p>Take a closer look at the condition of education for American Indian and Alaska Native (AI/AN) students in the United States. <em><a href="https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2017161">View the full report</a></em>.</p>
-               <img src="/nrc_redesign/images/nies_graphic_updated_text.png" />
+               <p>Take a closer look at the condition of education for American Indian and Alaska Native (AI/AN) students in the United States. <strong><a href="https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2017161">View the full report</a></strong>.</p>
+               <img src="/nrc_redesign/images/nies_graphic_updated_text.png" alt = "In the 2015 NIES Report, 69 percent of AI/AN students at grade 4 reported having a computer in the home compared to 83 percent of fourth-graders nationally. At grade eight, 75 percent of AI/AN students reported having a computer in the home compared to 88 percent of eighth-graders nationally." />
             </div>
          </section>
          <section class="row natural">
@@ -588,7 +603,7 @@ NAEP Report Cards - Home
                   </div>
                   <div class="box-text">
                      <h5>DO YOUR STATE'S PROFICIENCY STANDARDS MEASURE UP?</h5>
-                     <p>Find out in this <em><a href="link-goes-here">NCES special study</a></em>.</p>
+                     <p>Find out in this <strong><a href="link-goes-here">NCES special study</a></strong>.</p>
                   </div>
                </div>
             </div>
@@ -599,7 +614,7 @@ NAEP Report Cards - Home
                   </div>
                   <div class="box-text">
                      <h5>FOCUS ON NAEP: SAMPLING FOR NAEP ASSESSMENTS</h5>
-                     <p>Learn how NAEP <em><a href="link-goes-here">selects schools and students</a></em> for NAEP assessments.</p>
+                     <p>Learn how NAEP <strong><a href="link-goes-here">selects schools and students</a></strong> for NAEP assessments.</p>
                   </div>
                </div>
             </div>

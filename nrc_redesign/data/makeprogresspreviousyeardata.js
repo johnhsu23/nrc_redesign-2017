@@ -1,0 +1,24 @@
+{"status":200,"result": [
+	{"year":2010,"focalyear":1998,"accommodations":1,"stattype":"AP","subject":"Civics","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":27,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff":3},
+	{"year":2014,"focalyear":1998,"accommodations":1,"stattype":"AP","subject":"Civics","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":23,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""},
+	{"year":2010,"focalyear":1998,"accommodations":1,"stattype":"AP","subject":"Civics","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":24,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff":3},
+
+	{"year":2012,"accommodations":1,"stattype":"AP","subject":"Economics","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":42,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": "" },
+	{"year":2010,"accommodations":1,"stattype":"AP","subject":"Geography","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":21,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff":5},
+	{"year":2014,"accommodations":1,"stattype":"AP","subject":"Geography","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":27,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""},
+	{"year":2010,"accommodations":1,"stattype":"AP","subject":"Geography","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":20,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff": "" },
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Mathematics","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":40,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff":1},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Mathematics","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":33,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff":2},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Mathematics","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":25,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff":2},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Reading","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":36,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Reading","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":34,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":"<", "diff":2},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Reading","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":37,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Science","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":38,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff":4},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Science","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":34,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff":2},
+	{"year":2015,"accommodations":1,"stattype":"AP","subject":"Science","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":22,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""},
+
+	{"year":2010,"accommodations":1,"stattype":"AP","subject":"History","grade":4,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":20,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": "" },
+	{"year":2014,"accommodations":1,"stattype":"AP","subject":"History","grade":8,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":18,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": "" },
+	{"year":2010,"accommodations":1,"stattype":"AP","subject":"History","grade":12,"jurisdiction":"NT","variable":"TOTAL","category":"All students","categoryIndex":0,"value":12,"isStatDisplayable":1,"errorFlag":0,"gap":0,"sig":">", "diff": ""}
+
+	]}
